@@ -1,0 +1,28 @@
+html {
+    display: block;
+    background-color: white;
+}
+
+head { display: none; }
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    background-color: #171510;
+    position: relative;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+}
+
+#header_canvas {
+    position: relative;
+    /* background-color: black; */
+}
