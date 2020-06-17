@@ -11,6 +11,16 @@ body {
     padding: 0;
 }
 
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
 header {
     display: block;
     background-color: #171510;
@@ -24,5 +34,22 @@ header {
 
 #header_canvas {
     position: relative;
-    /* background-color: black; */
+    z-index: 1;
+}
+
+#header_title {
+    /* background-color: blue; */
+    display: block;
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    transform: translate(-50%,-50%);
+
+    /* -webkit-text-stroke: 2px black; */
+    text-shadow: 2px 2px 7px black;
+    color: white;
+    font-size: calc(27px + 3vmin);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

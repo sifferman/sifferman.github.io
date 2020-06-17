@@ -27,17 +27,6 @@ function draw() { setTimeout(function() {
         b.step();
     }
 
-    ctx.filter = 'blur(.7px)';
-    ctx.fillStyle = "#FFFFFF";
-    ctx.globalAlpha = .9;
-    ctx.strokeStyle = "#262626";
-    ctx.lineWidth = 10;
-    ctx.font = "100px cursive";
-    ctx.textAlign = "center";
-    ctx.textBaseline = "middle";
-    ctx.strokeText("Ethan Sifferman", canvas.offsetWidth/2,canvas.offsetHeight/2);
-    ctx.fillText("Ethan Sifferman", canvas.offsetWidth/2,canvas.offsetHeight/2);
-
     requestAnimationFrame(draw);
 }, 50);}
 
@@ -121,8 +110,3 @@ class Ball {
 let balls = [ ];
 for ( var i = 0; i < 69; i++ )
     balls.push( new Ball() );
-
-
-
-
-
