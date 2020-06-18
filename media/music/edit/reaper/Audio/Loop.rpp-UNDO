@@ -1,0 +1,2189 @@
+<REAPER_UNDO_HISTORY 1592440909
+  CURPOS 0 
+  <UINF 1
+    <REAPER_PROJECT 0.1 "6.11/x64" 0
+      PANMODE 3
+      CLEAR_COMP_GROUP
+      TEMPO 180 1 8
+      PLAYRATE 1 1 0.25 4
+      SELECTION 0 0
+      SELECTION2 0 0
+      MASTER_SEL 0
+      MARKER 1 0 =START 0 0 1 R {BF17CBDE-B74A-442C-A864-08670F940E0E}
+      MARKER 2 10.5 =END 0 0 1 R {546C0646-283B-434F-9E98-81FE92D9A4FD}
+    >
+  >
+  <UINF 2
+    <REAPER_PROJECT 0.1 /U/
+      MASTERAUTOMODE 0
+      MASTERTRACKHEIGHT 0 0
+      MASTERPEAKCOL 16576
+      MASTERMUTESOLO 0
+      MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0 0 0 0
+      MASTERHWOUT 0 0 1 0 0 0 0 -1
+      MASTER_NCH 2 2
+      MASTER_VOLUME 1 0 -1 -1 1
+      MASTER_FX 1
+      MASTER_SEL 0
+    >
+  >
+  <UINF 3
+  >
+  <UINF 4
+    <ITEM {D20CAEAB-A347-4975-B2B9-0502E8A0AFA4}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D20CAEAB-A347-4975-B2B9-0502E8A0AFA4}
+      IID 191
+      NAME Voice.wav
+      VOLPAN 1 0 8.436915 -1
+      SOFFS 9.3595159633167
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DC31604F-003E-43A1-8D99-87966F7DA9D4}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\Voice MIDI.wav"
+      >
+    >
+  >
+  <UINF 5
+    <ITEM {CC8BC8C4-A636-4EB5-82DB-E068E44FE84E}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CC8BC8C4-A636-4EB5-82DB-E068E44FE84E}
+      IID 192
+      NAME Eb.wav
+      VOLPAN 1 0 32.03056 -1
+      SOFFS 9.36802402052184
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FB1FF479-58C2-474E-8ECC-632600F33FA0}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\Eb MIDI.wav"
+      >
+    >
+  >
+  <UINF 6
+    <ITEM {A3FDB5C7-C910-4E47-8416-EDCC10DA202A}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A3FDB5C7-C910-4E47-8416-EDCC10DA202A}
+      IID 193
+      NAME Bass.wav
+      VOLPAN 1 0 17.636979 -1
+      SOFFS 9.39354819213729
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {89D03539-207D-431E-B464-F7E8D0AD3934}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\Bass MIDI.wav"
+      >
+    >
+  >
+  <UINF 7
+    <ITEM {BDC5E7F1-70BB-4942-A96E-93437570A2E5}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BDC5E7F1-70BB-4942-A96E-93437570A2E5}
+      IID 194
+      NAME Xylo.wav
+      VOLPAN 1 -0.244 7.082482 -1
+      SOFFS 9.33115577263287
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E5887431-2856-4C6C-B29E-DD31FD836CE4}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\Xylo MIDI.wav"
+      >
+    >
+  >
+  <UINF 8
+    <ITEM {6D7DF2AC-F3B4-4A58-BE31-8B4D7C0DDCF5}
+      POSITION 0.65960370315132
+      SNAPOFFS 0
+      LENGTH 8.84039629684868
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6D7DF2AC-F3B4-4A58-BE31-8B4D7C0DDCF5}
+      IID 75
+      NAME 07-200617_1344-01-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {665887E5-9C7E-49B3-94E6-700C12ECB66B}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\07-200617_1344-01-glued.wav"
+      >
+    >
+  >
+  <UINF 9
+    <ITEM {11453916-6F61-4F9B-A2B9-FF1C64F69FEF}
+      POSITION 0.04967698958641
+      SNAPOFFS 0
+      LENGTH 0.74072591531299
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {11453916-6F61-4F9B-A2B9-FF1C64F69FEF}
+      IID 76
+      NAME 07-200617_1344-01-glued-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {261F2526-AD53-4C11-9B77-399F40F872EE}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\07-200617_1344-01-glued-01.wav"
+      >
+    >
+    <ITEM {28266490-F7DB-42E9-9F5B-FD03EB04B7AC}
+      POSITION 0.82288683423845
+      SNAPOFFS 0
+      LENGTH 8.67586138710233
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {28266490-F7DB-42E9-9F5B-FD03EB04B7AC}
+      IID 247
+      NAME 07-200617_1344-01-glued-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.74072591531299
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E7CA0488-55E5-4DB9-9367-E02EF945C706}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\07-200617_1344-01-glued-01.wav"
+      >
+    >
+  >
+  <UINF 10
+    <ITEM {83845F50-36BB-436F-A10B-BFC3351756F7}
+      POSITION 0.11050152487972
+      SNAPOFFS 0
+      LENGTH 0.70146891276561
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {83845F50-36BB-436F-A10B-BFC3351756F7}
+      IID 77
+      NAME 07-200617_1344-01-glued-02.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {802472AB-82E7-4008-BCF0-431C53AB9C3C}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\07-200617_1344-01-glued-02.wav"
+      >
+    >
+    <ITEM {93F39FC5-23D8-4E4A-B35C-386432FD7949}
+      POSITION 0.83333333333333
+      SNAPOFFS 0
+      LENGTH 8.00577162439888
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {93F39FC5-23D8-4E4A-B35C-386432FD7949}
+      IID 140
+      NAME 07-200617_1344-01-glued-02.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.70146891276561
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {429AC676-A4B9-4449-B874-28F8C9DABEBF}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\07-200617_1344-01-glued-02.wav"
+      >
+    >
+  >
+  <UINF 11
+    <ITEM {F3260D8B-96B7-4AAF-97C9-8373EDF7AA1B}
+      POSITION 0.10132040838969
+      SNAPOFFS 0
+      LENGTH 0.70836357039569
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {F3260D8B-96B7-4AAF-97C9-8373EDF7AA1B}
+      IID 78
+      NAME 07-200617_1344-01-glued-03.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0C700FE3-DCCF-4EDD-B5E3-0C4C3198F55C}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\07-200617_1344-01-glued-03.wav"
+      >
+    >
+    <ITEM {EFD28E87-DC2E-49E7-95AD-93212A6E2943}
+      POSITION 0.83227543070065
+      SNAPOFFS 0
+      LENGTH 8.6558965608729
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {EFD28E87-DC2E-49E7-95AD-93212A6E2943}
+      IID 141
+      NAME 07-200617_1344-01-glued-03.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.70836357039569
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E0552A0C-4EA9-472E-8FB8-71B48FE08521}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\07-200617_1344-01-glued-03.wav"
+      >
+    >
+  >
+  <UINF 12
+    <ITEM {7E62B749-F34B-4808-BD3E-66DE7DC29E55}
+      POSITION 0.07860900240985
+      SNAPOFFS 0
+      LENGTH 0.56248895057094
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {7E62B749-F34B-4808-BD3E-66DE7DC29E55}
+      IID 79
+      NAME 13-200617_1402-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {314C2ABD-46FD-4A87-9076-6AA8C16CDC00}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1402-glued.wav"
+      >
+    >
+    <ITEM {2A169420-E808-4FB7-8CBB-E0B65E563A15}
+      POSITION 0.67358188231984
+      SNAPOFFS 0
+      LENGTH 5.94047346556154
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {2A169420-E808-4FB7-8CBB-E0B65E563A15}
+      IID 248
+      NAME 13-200617_1402-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.56248895057094
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {71B1F541-A4C4-4056-83B4-71E1ADD76993}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1402-glued.wav"
+      >
+    >
+    <ITEM {41CC404A-A32A-45FB-9C93-00A8BD11534A}
+      POSITION 6.61854999955172
+      SNAPOFFS 0
+      LENGTH 0.21424506295266
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.004495 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {41CC404A-A32A-45FB-9C93-00A8BD11534A}
+      IID 100
+      NAME 13-200617_1402-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.50296241613248
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5A3BAE77-B7C2-4527-9C68-F9263C50F3EA}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1402-glued.wav"
+      >
+    >
+    <ITEM {00AD5CFE-CE7B-423A-A7C4-66E35FB913C8}
+      POSITION 6.82830041083404
+      SNAPOFFS 0
+      LENGTH 0.70865674668957
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.004495 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {00AD5CFE-CE7B-423A-A7C4-66E35FB913C8}
+      IID 104
+      NAME 13-200617_1402-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.71720747908514
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5443A767-021F-43DE-9129-B16CEB5D7830}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1402-glued.wav"
+      >
+    >
+    <ITEM {DCC9A383-368E-4F7C-8E51-72B499B2C7BC}
+      POSITION 7.55793219865183
+      SNAPOFFS 0
+      LENGTH 0.29964344468904
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.020975 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {DCC9A383-368E-4F7C-8E51-72B499B2C7BC}
+      IID 114
+      NAME 13-200617_1402-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 7.42586422577471
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {505C943B-8FBC-4018-B295-1429F22CDF97}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1402-glued.wav"
+      >
+    >
+    <ITEM {9858329F-7B9C-4FD9-8380-590561EB218D}
+      POSITION 7.83660060221263
+      SNAPOFFS 0
+      LENGTH 1.04875205641163
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.020975 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9858329F-7B9C-4FD9-8380-590561EB218D}
+      IID 115
+      NAME 13-200617_1402-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 7.72550767046374
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6170F972-5FE3-4240-A0C6-6E4334680980}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1402-glued.wav"
+      >
+    >
+    <ITEM {4AF58B08-C53F-47BF-8B3E-3F4B74B2CDD2}
+      POSITION 8.9228080892104
+      SNAPOFFS 0
+      LENGTH 0.55075588552695
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4AF58B08-C53F-47BF-8B3E-3F4B74B2CDD2}
+      IID 117
+      NAME 13-200617_1402-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.77425972687537
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {665D53AD-7B03-4CB3-886C-5A68DF41CAF7}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1402-glued.wav"
+      >
+    >
+  >
+  <UINF 13
+    <ITEM {E944F79F-9D08-4E2A-85F4-BB10AC9F1441}
+      POSITION 0.07860900240985
+      SNAPOFFS 0
+      LENGTH 0.57958493743185
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {E944F79F-9D08-4E2A-85F4-BB10AC9F1441}
+      IID 80
+      NAME 14-200617_1402-04-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A0FA9D97-82BA-4BB7-8DBB-40AABC69BBE3}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1402-04-glued.wav"
+      >
+    >
+    <ITEM {260014DE-10C7-4B6E-AB5A-9736104EA337}
+      POSITION 0.69067786918075
+      SNAPOFFS 0
+      LENGTH 2.14265546415258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {260014DE-10C7-4B6E-AB5A-9736104EA337}
+      IID 249
+      NAME 14-200617_1402-04-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.57958493743185
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3580E5D9-922D-48CB-B3B9-EF23B0DC0A3D}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1402-04-glued.wav"
+      >
+    >
+    <ITEM {3C7AD11A-1088-4981-8080-9BCCECA1D23F}
+      POSITION 2.85477840068276
+      SNAPOFFS 0
+      LENGTH 0.21487137575409
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3C7AD11A-1088-4981-8080-9BCCECA1D23F}
+      IID 83
+      NAME 14-200617_1402-04-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.72224040158443
+      PLAYRATE 1.55131567508006 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6771D83E-93C7-4989-A22A-313A76D0EEAD}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1402-04-glued.wav"
+      >
+    >
+    <ITEM {2030E878-178D-4CAD-9481-C4111F2E4B16}
+      POSITION 3.14250003443469
+      SNAPOFFS 0
+      LENGTH 0.75437425909677
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {2030E878-178D-4CAD-9481-C4111F2E4B16}
+      IID 84
+      NAME 14-200617_1402-04-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 3.05557373491776
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3E715856-C818-4D6D-BB60-D47A56FABDBE}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1402-04-glued.wav"
+      >
+    >
+    <ITEM {C1187D90-F115-4E05-B8FA-DACDBF8DF4EA}
+      POSITION 3.92104092576343
+      SNAPOFFS 0
+      LENGTH 2.69301442211795
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C1187D90-F115-4E05-B8FA-DACDBF8DF4EA}
+      IID 85
+      NAME 14-200617_1402-04-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 3.80994799401453
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {71F3121A-921B-4429-8431-C34DD580636D}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1402-04-glued.wav"
+      >
+    >
+    <ITEM {AF475F56-C8C3-42E8-A67E-6BFD3F855CCC}
+      POSITION 6.6380268234565
+      SNAPOFFS 0
+      LENGTH 0.2022593251651
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.023971 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {AF475F56-C8C3-42E8-A67E-6BFD3F855CCC}
+      IID 101
+      NAME 14-200617_1402-04-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.50296241613248
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {47A7DA33-DA36-40FA-9F9A-F5461FEC895F}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1402-04-glued.wav"
+      >
+    >
+    <ITEM {D1826AFD-C9C0-49FF-B408-F67EFCBC7B44}
+      POSITION 6.81631467304648
+      SNAPOFFS 0
+      LENGTH 0.47044020816179
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.023971 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D1826AFD-C9C0-49FF-B408-F67EFCBC7B44}
+      IID 105
+      NAME 14-200617_1402-04-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.70522174129758
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D1A52464-C46E-434D-A44A-6F07A149359A}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1402-04-glued.wav"
+      >
+    >
+    <ITEM {01DDE562-DECD-43A7-ABB2-EC8653ADEEEB}
+      POSITION 7.31671922567717
+      SNAPOFFS 0
+      LENGTH 0.25469692798568
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.029964 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {01DDE562-DECD-43A7-ABB2-EC8653ADEEEB}
+      IID 112
+      NAME 14-200617_1402-04-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 7.17566194945936
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F8D34DA1-57A9-4D88-8E9D-578E9BE2C74F}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1402-04-glued.wav"
+      >
+    >
+    <ITEM {C58624A7-0AF7-4C72-A5CD-75CB40E5D245}
+      POSITION 7.54145180919394
+      SNAPOFFS 0
+      LENGTH 1.34689728387721
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.029964 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C58624A7-0AF7-4C72-A5CD-75CB40E5D245}
+      IID 113
+      NAME 14-200617_1402-04-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 7.43035887744504
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {18BF3F18-530D-43EE-89B5-ECE7087C3FFA}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1402-04-glued.wav"
+      >
+    >
+    <ITEM {EF964FB0-DB1A-41C3-813E-F1F204846CE0}
+      POSITION 8.9362920442214
+      SNAPOFFS 0
+      LENGTH 0.54775945108006
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {EF964FB0-DB1A-41C3-813E-F1F204846CE0}
+      IID 116
+      NAME 14-200617_1402-04-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.77725616132225
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {70C20CC1-098D-4D9C-A084-B6E960701F6D}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1402-04-glued.wav"
+      >
+    >
+  >
+  <UINF 14
+    <ITEM {2BEC5523-AC2F-4715-AF3F-C8A03BA218BF}
+      POSITION 0.10061416865969
+      SNAPOFFS 0
+      LENGTH 0.79805089490218
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {2BEC5523-AC2F-4715-AF3F-C8A03BA218BF}
+      IID 81
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.03666472184032 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {04364AD6-2778-49A8-A5A7-B2D9A7FDD319}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+    <ITEM {8E176D60-05EC-422F-A558-C3F345CD5DF6}
+      POSITION 0.95765495032999
+      SNAPOFFS 0
+      LENGTH 0.61763014142667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8E176D60-05EC-422F-A558-C3F345CD5DF6}
+      IID 92
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.82731120897819
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BEF95819-60E6-4E3B-9CCC-96B13E649F63}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+    <ITEM {9B6DA25F-D07B-4C59-9057-1C08F3377ED0}
+      POSITION 1.58009779415739
+      SNAPOFFS 0
+      LENGTH 0.71227995530764
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.024064 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {9B6DA25F-D07B-4C59-9057-1C08F3377ED0}
+      IID 90
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 1.44494135040486
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B77469F4-8FF6-452A-B5C8-F66DE8803973}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+    <ITEM {9CBDCEBD-2A6E-48B1-90A4-6BD165098D5E}
+      POSITION 2.2683142374614
+      SNAPOFFS 0
+      LENGTH 3.22611484262086
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.024064 1 1 0
+      FADEOUT 1.1 0.01 0.025668 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {9CBDCEBD-2A6E-48B1-90A4-6BD165098D5E}
+      IID 94
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.1572213057125
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E4A9BC6D-0E29-4198-9739-101207A776BC}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+    <ITEM {6E43CFF7-B5C5-4CF7-B838-6A88186DE104}
+      POSITION 5.46876133394505
+      SNAPOFFS 0
+      LENGTH 0.74436463797916
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.025668 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6E43CFF7-B5C5-4CF7-B838-6A88186DE104}
+      IID 98
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 5.38333614833336
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2424DE29-60C5-489D-B17A-262196D1B0F0}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+    <ITEM {88AE03CA-2B32-474E-92FB-D7991BB70BBB}
+      POSITION 6.23879371806142
+      SNAPOFFS 0
+      LENGTH 0.37526162981996
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {88AE03CA-2B32-474E-92FB-D7991BB70BBB}
+      IID 99
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.12770078631252
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B653BFBA-D31B-4AEB-9B62-EBDF0FD0CF24}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+    <ITEM {D9A4C580-03C3-4BB0-956B-1E67AC79E788}
+      POSITION 6.63203395456272
+      SNAPOFFS 0
+      LENGTH 0.20825219405888
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.017979 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {D9A4C580-03C3-4BB0-956B-1E67AC79E788}
+      IID 102
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.50296241613248
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1FF7853A-55E0-4FAE-8748-F112A8CFB8D1}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+    <ITEM {7BB8DB8A-CD05-4496-89EA-54A92A09B239}
+      POSITION 6.82230754194026
+      SNAPOFFS 0
+      LENGTH 0.44497051536322
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.017979 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7BB8DB8A-CD05-4496-89EA-54A92A09B239}
+      IID 106
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.71121461019136
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E278E9A5-50FA-4DB8-8425-92220831DAC4}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+    <ITEM {B41BDE69-564E-4E97-A097-9BC076B971CC}
+      POSITION 7.2912495328786
+      SNAPOFFS 0
+      LENGTH 0.26068979687946
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.023971 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {B41BDE69-564E-4E97-A097-9BC076B971CC}
+      IID 111
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 7.15618512555458
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {853D12CE-0907-4F46-8C4B-4394AF180C11}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+    <ITEM {72AF8F1C-F2C3-4BC9-8E30-B49E94D28893}
+      POSITION 7.52796785418293
+      SNAPOFFS 0
+      LENGTH 1.42330636227292
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.023971 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {72AF8F1C-F2C3-4BC9-8E30-B49E94D28893}
+      IID 110
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 7.41687492243404
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {92E50ACE-DF58-437F-8273-FF367F9F2E11}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+    <ITEM {969579B1-A821-4251-BF69-5B7F21A9F723}
+      POSITION 8.97374747480753
+      SNAPOFFS 0
+      LENGTH 0.48483432769536
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {969579B1-A821-4251-BF69-5B7F21A9F723}
+      IID 118
+      NAME 13-200617_1356-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.84018128470696
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {90724B2D-08B0-425C-897A-D33F1611E665}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1356-glued.wav"
+      >
+    >
+  >
+  <UINF 15
+    <ITEM {FF632BFD-9CB1-425E-8688-B017955A4EFC}
+      POSITION 0.07860900240985
+      SNAPOFFS 0
+      LENGTH 0.82731120897819
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {FF632BFD-9CB1-425E-8688-B017955A4EFC}
+      IID 82
+      NAME 14-200617_1357-01-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BC37B8B0-CBAF-424D-ADAC-39D9BFE70919}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1357-01-glued.wav"
+      >
+    >
+    <ITEM {E119B78F-3578-4482-89FE-1119ADC89AAE}
+      POSITION 0.95765495032999
+      SNAPOFFS 0
+      LENGTH 0.61763014142667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E119B78F-3578-4482-89FE-1119ADC89AAE}
+      IID 93
+      NAME 14-200617_1357-01-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.82731120897819
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {23A4BCE3-64EB-47F1-8F0A-EADA3ECEDEFE}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1357-01-glued.wav"
+      >
+    >
+    <ITEM {9A10AE04-B385-4390-AF02-176C83D0F0EE}
+      POSITION 1.58009779415739
+      SNAPOFFS 0
+      LENGTH 0.71227995530764
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.024064 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {9A10AE04-B385-4390-AF02-176C83D0F0EE}
+      IID 91
+      NAME 14-200617_1357-01-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 1.44494135040486
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BFAA5ED4-1765-49A9-9928-AD1AC15FC6DB}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1357-01-glued.wav"
+      >
+    >
+    <ITEM {9543CCFE-92F1-4AA9-BAB8-FB8B248F5DF5}
+      POSITION 2.2683142374614
+      SNAPOFFS 0
+      LENGTH 4.34574111041998
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.024064 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9543CCFE-92F1-4AA9-BAB8-FB8B248F5DF5}
+      IID 95
+      NAME 14-200617_1357-01-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.1572213057125
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {67596DC0-9E22-452D-B8AA-1547F30C95F9}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1357-01-glued.wav"
+      >
+    >
+    <ITEM {88D5D584-A946-4DAE-9280-D144C4DEA955}
+      POSITION 6.63652860623306
+      SNAPOFFS 0
+      LENGTH 0.23072545241056
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.040452 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {88D5D584-A946-4DAE-9280-D144C4DEA955}
+      IID 103
+      NAME 14-200617_1357-01-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.50296241613248
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AA23B771-C015-4AF6-BA77-26F6A73DC9EA}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1357-01-glued.wav"
+      >
+    >
+    <ITEM {047B6C21-F3EA-4F3F-9BE8-61EF1281EBBF}
+      POSITION 6.82680219361059
+      SNAPOFFS 0
+      LENGTH 0.42249725701154
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.040452 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {047B6C21-F3EA-4F3F-9BE8-61EF1281EBBF}
+      IID 107
+      NAME 14-200617_1357-01-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.73368786854304
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BCDBE46A-F00A-4ABD-8F7A-440201B80A6B}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1357-01-glued.wav"
+      >
+    >
+    <ITEM {16A4CB08-30B7-45E3-95CE-810327D6B89D}
+      POSITION 7.3047334878896
+      SNAPOFFS 0
+      LENGTH 0.25769336243257
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.037455 1 1 0
+      MUTE 0
+      SEL 0
+      IGUID {16A4CB08-30B7-45E3-95CE-810327D6B89D}
+      IID 108
+      NAME 14-200617_1357-01-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 7.15618512555458
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {90FB3A50-DA4C-4A61-ABDF-46F82C1C9780}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1357-01-glued.wav"
+      >
+    >
+    <ITEM {90642BA7-ADB3-414B-B2D3-D542AF9794FC}
+      POSITION 7.52497141973604
+      SNAPOFFS 0
+      LENGTH 1.41132062448536
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.037455 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {90642BA7-ADB3-414B-B2D3-D542AF9794FC}
+      IID 109
+      NAME 14-200617_1357-01-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 7.41387848798715
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C7547666-765B-4D5D-B4B5-43E4CDF4B65C}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1357-01-glued.wav"
+      >
+    >
+    <ITEM {732B815E-5E6F-4595-8472-936383456EDE}
+      POSITION 8.95576886812619
+      SNAPOFFS 0
+      LENGTH 0.49981649992981
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {732B815E-5E6F-4595-8472-936383456EDE}
+      IID 119
+      NAME 14-200617_1357-01-glued.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.82519911247251
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {57860C6B-9D5A-4A6D-A73D-AC464CF2577B}
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1357-01-glued.wav"
+      >
+    >
+  >
+  <UINF 16
+    <ITEM {F8BD6AA8-0400-4D6C-8CA6-56E05D610B84}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.4100625
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F8BD6AA8-0400-4D6C-8CA6-56E05D610B84}
+      IID 195
+      NAME 13-200617_1410-02.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.93164583333334
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {059A703C-B053-41CF-8DF2-7F27D3744842}
+      RECPASS 22
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\13-200617_1410-02.wav"
+      >
+    >
+  >
+  <UINF 17
+    <ITEM {999DA676-F69F-4B70-8BFA-464FFE0531A4}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.2500625
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {999DA676-F69F-4B70-8BFA-464FFE0531A4}
+      IID 196
+      NAME 14-200617_1411.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.93164583333334
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2D2E2BE5-5317-4BCA-90A6-2295427DF028}
+      RECPASS 24
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\14-200617_1411.wav"
+      >
+    >
+  >
+  <UINF 18
+    <ITEM {BAED3805-2E9D-443A-9790-0603D5FD24E3}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.03672916666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BAED3805-2E9D-443A-9790-0603D5FD24E3}
+      IID 197
+      NAME 15-200617_1411-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.93164583333334
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {405BD34E-9B87-4F8C-BE60-A4A8514F3548}
+      RECPASS 26
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\15-200617_1411-01.wav"
+      >
+    >
+  >
+  <UINF 19
+    <ITEM {B5832FF4-9322-42F7-A849-A975FD1A9102}
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.14872916666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B5832FF4-9322-42F7-A849-A975FD1A9102}
+      IID 198
+      NAME 16-200617_1412-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.93164583333334
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {95B5A624-B00D-4C9D-8485-F8DA45D3D979}
+      RECPASS 28
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\16-200617_1412-01.wav"
+      >
+    >
+  >
+  <UINF 20
+    <ITEM {17E07B59-8004-42F7-B6E2-1DC531722C6A}
+      POSITION 1.29730082279363
+      SNAPOFFS 0
+      LENGTH 0.34162892649991
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {17E07B59-8004-42F7-B6E2-1DC531722C6A}
+      IID 134
+      NAME 17-200617_1413.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.22894665612697
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D27142D8-68FB-4818-9DFB-4B0AF8730B7F}
+      RECPASS 29
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\17-200617_1413.wav"
+      >
+    >
+    <ITEM {AB58211C-0DF9-426A-B833-CA86FF815178}
+      POSITION 3.92151709524111
+      SNAPOFFS 0
+      LENGTH 0.29860898760733
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {AB58211C-0DF9-426A-B833-CA86FF815178}
+      IID 135
+      NAME 17-200617_1413.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 4.85316292857445
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CFA7CDE3-DEEE-4B07-AAED-EF30E0622597}
+      RECPASS 29
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\17-200617_1413.wav"
+      >
+    >
+    <ITEM {5DD966CB-E80E-4F5B-9EFE-384BB78F2F92}
+      POSITION 5.18174824632968
+      SNAPOFFS 0
+      LENGTH 0.40489354251842
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {5DD966CB-E80E-4F5B-9EFE-384BB78F2F92}
+      IID 136
+      NAME 17-200617_1413.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.11339407966302
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {62ABA450-C2C8-462B-86D5-6C3D3D5DABDE}
+      RECPASS 29
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\17-200617_1413.wav"
+      >
+    >
+    <ITEM {6B685818-50A1-4466-8940-14A20C401326}
+      POSITION 7.87935147335862
+      SNAPOFFS 0
+      LENGTH 0.43779114284804
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6B685818-50A1-4466-8940-14A20C401326}
+      IID 137
+      NAME 17-200617_1413.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.81099730669196
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A0B55AA0-72C0-484C-A68C-67A957BE4250}
+      RECPASS 29
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\17-200617_1413.wav"
+      >
+    >
+    <ITEM {05767CA4-BFF2-4870-865F-E723462C8F64}
+      POSITION 9.32684588786196
+      SNAPOFFS 0
+      LENGTH 0.18979384805551
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {05767CA4-BFF2-4870-865F-E723462C8F64}
+      IID 138
+      NAME 17-200617_1413.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 10.2584917211953
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {18149B25-0FFB-483D-81C2-DFAB977D20F7}
+      RECPASS 29
+      <SOURCE WAVE
+        FILE "C:\Users\Ethan\Documents\VisualStudioCode\GitHub Desktop\E4tHam.github.io\media\music\reaper\Audio\17-200617_1413.wav"
+      >
+    >
+  >
+  <UINF 21
+    WNDRECT 24 52 716 200
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+    BYPASS 0 0 0
+    FXID_NEXT {ACE93D2E-8110-4A39-96F6-03E9476CFA9F}
+    <JS utility/volume_pan ""
+      -1.300000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    >
+    FLOATPOS 0 0 0 0
+    WAK 0 0
+  >
+  <UINF 22
+    WNDRECT 24 52 716 200
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+    BYPASS 0 0 0
+    FXID_NEXT {05F6DCFC-E63B-429B-A107-191621464034}
+    <JS utility/volume_pan ""
+      -5.100000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    >
+    FLOATPOS 0 0 0 0
+    WAK 0 0
+    BYPASS 0 0 0
+    FXID_NEXT {43A9F267-319F-4C68-9384-9ED6F774F569}
+    <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
+      OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAAAAA776t3g3wrd7vOzU/7zs1P+rrCT8U0MQ8AACAP4p1KjuwFhg/AAAAAABpbnNlcnQgLSBpbnRpbWF0ZSB2b2NhbAAAAAAA
+    >
+    PRESETNAME "insert - intimate vocal"
+    FLOATPOS 0 0 0 0
+    WAK 0 0
+  >
+  <UINF 23
+    WNDRECT 24 52 643 345
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+    BYPASS 0 0 0
+    FXID_NEXT {BA1095DE-801E-4F7A-9417-C127E0F42EC3}
+    <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
+      OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAAAAA776t3g3wrd7vOzU/7zs1P+rrCT8U0MQ8AACAP4p1KjuwFhg/AAAAAABpbnNlcnQgLSBpbnRpbWF0ZSB2b2NhbAAAAAAA
+    >
+    PRESETNAME "insert - intimate vocal"
+    FLOATPOS 0 0 0 0
+    WAK 0 0
+  >
+  <UINF 24
+    WNDRECT 24 52 716 328
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+    BYPASS 0 0 0
+    FXID_NEXT {BBFF2F5B-BA63-4877-99B1-F51281658F95}
+    <JS loopsamplers/autoloop ""
+      0.000000 0.000000 -30.000000 100.000000 60.000000 100.000000 0.000000 1.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    >
+    <JS_SER
+      AACAPwAAAAAAAAAAAACAPw==
+    >
+    FLOATPOS 0 0 0 0
+    WAK 0 0
+  >
+  <UINF 25
+    UNDOSKIP
+  >
+  <UINF 26
+    UNDOSKIP
+    UNDOSKIP
+  >
+  <UINF 27
+    UNDOSKIP
+  >
+  <UINF 28
+    UNDOSKIP
+  >
+  <UINF 29
+    <MASTERPLAYSPEEDENV
+      EGUID {9352F0D2-449A-427C-9492-F7698BFE85F5}
+      ACT 0 -1
+      VIS 0 1 1
+      LANEHEIGHT 0 0
+      ARM 0
+      DEFSHAPE 0 -1 -1
+    >
+    <TEMPOENVEX
+      EGUID {03C22509-D91C-4A0F-BB83-16C5D6AD243D}
+      ACT 0 -1
+      VIS 1 0 1
+      LANEHEIGHT 0 0
+      ARM 0
+      DEFSHAPE 1 -1 -1
+    >
+  >
+  <UINF 30
+    <TRACK {7490C80A-7F01-48A9-B121-E65B55B95988}
+      NAME MIDI
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 1 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 1 1
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {7490C80A-7F01-48A9-B121-E65B55B95988}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 31
+    <TRACK {D8D2A79D-D258-47ED-8986-5E2DA9700C9A}
+      NAME Voice
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {D8D2A79D-D258-47ED-8986-5E2DA9700C9A}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 32
+    <TRACK {FBBDA755-B662-40E1-AF9C-98ACB9211C29}
+      NAME Eb
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 0.12882495517163 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {FBBDA755-B662-40E1-AF9C-98ACB9211C29}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 33
+    <TRACK {CA3EF4CD-BDF9-4DC0-99AB-E4CEDDE09F30}
+      NAME Bass
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 0.22908676527999 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {CA3EF4CD-BDF9-4DC0-99AB-E4CEDDE09F30}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 34
+    <TRACK {2A17C293-6098-42B8-B64E-DC08F648A56C}
+      NAME Xylo
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 0.41686938347278 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 2 -1
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {2A17C293-6098-42B8-B64E-DC08F648A56C}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 35
+    <TRACK {5A38CC89-44C8-4E84-B9E0-5BDC87BCF745}
+      NAME Voice
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 2 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 1 1
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {5A38CC89-44C8-4E84-B9E0-5BDC87BCF745}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 36
+    <TRACK {5DB9206E-46F2-4330-A3EB-CCC31C7E3A2B}
+      NAME Regular
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 0.53526003901476 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 1 1
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {5DB9206E-46F2-4330-A3EB-CCC31C7E3A2B}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 37
+    <TRACK {DC67C68C-39BC-47D2-A30A-2C3276D0015A}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 -0.304 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {DC67C68C-39BC-47D2-A30A-2C3276D0015A}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 38
+    <TRACK {FB958799-C018-414D-81C5-EFBBB7716448}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0.352 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {FB958799-C018-414D-81C5-EFBBB7716448}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 39
+    <TRACK {F9886343-EA26-4997-B94B-0EE92811BEEF}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 -0.272 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {F9886343-EA26-4997-B94B-0EE92811BEEF}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 40
+    <TRACK {DD50E4CC-B353-4582-BAF1-B7C663F39636}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0.424 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 2 -1
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {DD50E4CC-B353-4582-BAF1-B7C663F39636}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 41
+    <TRACK {17D3E28B-06CB-4F2B-BBD8-5A96BADAEBD2}
+      NAME Slowed
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 1 1
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {17D3E28B-06CB-4F2B-BBD8-5A96BADAEBD2}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 42
+    <TRACK {50BF548B-104F-461F-95D8-7DF5C5679109}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 1 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {50BF548B-104F-461F-95D8-7DF5C5679109}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 43
+    <TRACK {01DAF988-AC66-4844-B093-9245429F3A72}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 -1 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 2 -1
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {01DAF988-AC66-4844-B093-9245429F3A72}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 44
+    <TRACK {22FF0A04-F1AE-4655-A3B7-8E4CA21BB639}
+      NAME Sped
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 1 1
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {22FF0A04-F1AE-4655-A3B7-8E4CA21BB639}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 45
+    <TRACK {EC6ACB37-F6F8-4595-931E-6940210418F2}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 1 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {EC6ACB37-F6F8-4595-931E-6940210418F2}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 46
+    <TRACK {B335A07B-58D4-42C9-B10D-4EE9CCB0A9B5}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 -1 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 2 -2
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {B335A07B-58D4-42C9-B10D-4EE9CCB0A9B5}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 47
+    <TRACK {AC7435B8-548D-4429-9B71-6B22C61B3A19}
+      NAME "Eb 1"
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {AC7435B8-548D-4429-9B71-6B22C61B3A19}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 48
+    <TRACK {BE74910A-56F7-4A41-97FD-8C5C3859E559}
+      NAME "Eb 2"
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {BE74910A-56F7-4A41-97FD-8C5C3859E559}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 49
+    <TRACK {BE1B7A63-781E-4C3A-8A16-FE126BAE0E30}
+      NAME Bass
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {BE1B7A63-781E-4C3A-8A16-FE126BAE0E30}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 50
+    <TRACK {81A898FE-7116-42F2-AB80-7DFD2D3FA4FD}
+      NAME Xylo
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {81A898FE-7116-42F2-AB80-7DFD2D3FA4FD}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 51
+    <TRACK {69FA5EF5-DE8A-4AD8-A557-F4B3FDBB36F6}
+      NAME Hype
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 1 1
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {69FA5EF5-DE8A-4AD8-A557-F4B3FDBB36F6}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 52
+    <TRACK {71A3F1E4-0469-438D-95C3-11F88850A59B}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 -1 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {71A3F1E4-0469-438D-95C3-11F88850A59B}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 53
+    <TRACK {5D154DE2-DA55-4AEE-A8E2-9AC83B9B95A2}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 1 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {5D154DE2-DA55-4AEE-A8E2-9AC83B9B95A2}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 54
+    <TRACK {94B0F326-F155-434A-BF58-2A3BE8B4DA04}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 -0.256 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {94B0F326-F155-434A-BF58-2A3BE8B4DA04}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 55
+    <TRACK {C91E662C-1018-4D52-8D80-BA5E23BDC783}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0.696 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {C91E662C-1018-4D52-8D80-BA5E23BDC783}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 56
+    <TRACK {7FCE01C4-09E2-42A2-8E98-E3DEC0CCAD6E}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 2 -1
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {7FCE01C4-09E2-42A2-8E98-E3DEC0CCAD6E}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UINF 57
+    <TRACK {1A1DEE44-B55B-412B-B1AD-3B6254AAC7B1}
+      NAME ""
+      PEAKCOL 16576
+      BEAT -1
+      AUTOMODE 0
+      VOLPAN 1 0 -1 -1 1
+      MUTESOLO 0 0 0
+      IPHASE 0
+      PLAYOFFS 0 1
+      ISBUS 0 0
+      BUSCOMP 0 0 0 0 0
+      SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+      FREEMODE 0
+      REC 0 0 0 0 0 0 0
+      VU 2
+      TRACKHEIGHT 0 0 0
+      INQ 0 0 0 0.5 100 0 0 100
+      NCHAN 2
+      FX 1
+      TRACKID {1A1DEE44-B55B-412B-B1AD-3B6254AAC7B1}
+      PERF 0
+      UNDO_HAS_TRACKENV
+      MIDIOUT -1
+      MAINSEND 1 0
+    >
+  >
+  <UENT `` 1592440909 1 2
+    TCFG 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57
+    ITEMCFG 3 4 5 6 7 3 3 8 9 10 11 3 12 13 3 14 15 3 3 3 3 3 16 17 18 19 20 3
+    FREEZECFG 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    FXCFG 0 21 0 0 0 0 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23 0 0 0 0 0 24
+    FXENVCFG 0 25 0 0 0 0 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 0 0 0 0 0 28
+    RECFXCFG 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    TRACKENVCFG 29 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+  >
+>

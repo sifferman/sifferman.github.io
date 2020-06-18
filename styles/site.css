@@ -1,0 +1,50 @@
+html {
+    display: block;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+head { display: none; }
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.hidden {
+    display: none;
+}
+
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: unset;
+    border-color: transparent;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+    cursor: pointer;
+}

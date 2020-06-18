@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!---------------------------------------------->
+<!----->
+
+    <title>Music</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/site.css">
+    <link rel="stylesheet" type="text/css" href="styles/music.css">
+
+<!----->
+</head> <!---------------------------------------------->
+<body> <!---------------------------------------------->
+<!----->
+
+<audio id="hype_audio">
+    <source src="media\music\Hype.ogg" type="audio/ogg">
+    <source src="media\music\Hype.mp3" type="audio/mpeg">
+</audio>
+<audio id="voice_audio">
+    <source src="media\music\Voice.ogg" type="audio/ogg">
+    <source src="media\music\Voice.mp3" type="audio/mpeg">
+</audio>
+
+<div id="player">
+    <canvas id="player_canvas"></canvas>
+    <img id="sheet_music" src="media\music\sheet-music.svg" alt="Sheet Music">
+</div>
+
+<header class="unselectable">
+    
+    <div id="header_title"><a href="index.html">
+        Ethan Sifferman
+    </a></div>
+    
+    <table id="navigation_bar"><tr>
+        <td><a href="about.html">about</a></td>
+        <td><a href="music.html">music</a></td>
+        <td></th><a href="engineering.html">engineering</a></td>
+    </tr></table>
+
+
+</header>
+
+
+
+
+<button id="play" onclick="play()">Play</button></br></br>
+<input type="checkbox" id="check_voice" onclick="toggle_voice(this)">Voice</input></br>
+<input type="checkbox" id="check_hype" onclick="toggle_hype(this)">Hype</input>
+
+
+<script type="text/javascript" src="scripts/music_player.js"></script>
+
+<element onload="myScript"></element>
+
+<!---->
+</body> <!---------------------------------------------->
+
+</html>

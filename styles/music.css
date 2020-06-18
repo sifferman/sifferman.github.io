@@ -1,0 +1,69 @@
+
+#player {
+    position: relative;
+    max-width: 100vw;
+    width: 100vw;
+}
+
+#player_canvas {
+    display: block;
+    position: absolute;
+    padding-top: 2%;
+}
+
+#sheet_music {
+    position: relative;
+    padding: 3%;
+    width: 94%;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+header {
+    display: block;
+    background-color: white;
+    position: relative;
+    height: calc( 70px + 5vh );
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    border-bottom: 1px dotted black;
+}
+
+#header_title {
+    /* background-color: blue; */
+    display: block;
+    position: absolute;
+    z-index: 20;
+
+    transform: translate(-50%,-75%);
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+
+    /* -webkit-text-stroke: 2px black; */
+    color: currentColor;
+    text-shadow: 2px 2px 8px black, 0px 0px 1px black;
+    font-size: calc(30px + 3vmin);
+}
+
+#navigation_bar {
+    display: block;
+    position: absolute;
+    z-index: 40;
+
+    border-spacing: 2.3vmin 4px;
+
+    transform: translate(-50%,-100%);
+    top: 100%;
+    left: 50%;
+
+    color: currentColor;
+    text-shadow: 1px 1px 3px black, 0px 0px 1px black ;
+    font-size: calc(16px + .5vmin);
+}

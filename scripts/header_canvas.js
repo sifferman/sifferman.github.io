@@ -6,7 +6,6 @@ fitToContainer(canvas);
 draw();
 
 window.addEventListener('resize', fitToContainer);
-
 function fitToContainer() {
     // Make it visually fill the positioned parent
     canvas.style.width ='100%';
@@ -14,30 +13,32 @@ function fitToContainer() {
     // ...then set the internal size to match
     canvas.width  = canvas.offsetWidth;
     canvas.height = canvas.offsetHeight;
+    
+    ctx.translate(canvas.offsetWidth/2, canvas.offsetHeight/2);
 }
 
 
 function draw() { setTimeout(function() {
 
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.clearRect(-canvas.offsetWidth/2, -canvas.offsetHeight/2, canvas.offsetWidth, canvas.offsetHeight);
     
-    ctx.filter = 'blur(2.5px)';
+    // ctx.filter = 'blur(2.5px)';
     for ( let b of balls ) {
         b.draw();
         b.step();
     }
 
     requestAnimationFrame(draw);
-}, 50);}
+}, 75);}
 
 
 class Ball {
     constructor() {
         this.r = 15 + Math.random() * 20;
         this.color = "#" + Math.floor(Math.random()*16777215).toString(16);
-        this.alpha = .8 * Math.random();
-        this.x = Math.random() * canvas.offsetWidth;
-        this.y = Math.random() * canvas.offsetHeight;
+        this.alpha = .3+.7 * Math.random();
+        this.x = Math.random() * canvas.offsetWidth - canvas.offsetWidth/2;
+        this.y = Math.random() * canvas.offsetHeight - canvas.offsetHeight/2;
         this.vm = Math.random() * .5;
         this.vd = Math.random() * 2 * Math.PI;
         this.am = Math.random() * .5;
@@ -72,38 +73,47 @@ class Ball {
     }
     step() {
         const hidden_boarder = 30;
-        if ( Math.random() > .20 ) this.randomizeJerk();
-        this.am = Math.min( .5, this.vectorSumM( this.am, this.ad, this.jm, this.jd ));
+        if ( Math.random() > .90 ) this.randomizeJerk();
+        this.am = Math.min( .1, this.vectorSumM( this.am, this.ad, this.jm, this.jd ));
         this.ad = this.vectorSumD( this.am, this.ad, this.jm, this.jd );
-        this.vm = Math.min( .5, this.vectorSumM( this.vm, this.vd, this.am, this.ad ));
+        this.vm = Math.min( .2, this.vectorSumM( this.vm, this.vd, this.am, this.ad ));
         this.vd = this.vectorSumD( this.vm, this.vd, this.am, this.ad );
         this.x += this.vm * Math.cos( this.vd );
         this.y += this.vm * Math.sin( this.vd );
-        if ( this.x-this.r < -1*hidden_boarder || this.x+this.r > canvas.offsetWidth+hidden_boarder ) {
+        if ( this.x-this.r < -hidden_boarder-canvas.offsetWidth/2 || this.x+this.r > canvas.offsetWidth/2+hidden_boarder ) {
             this.vd = this.reverseHorizontal(this.vd);
             this.ad = this.reverseHorizontal(this.ad);
             this.jd = this.reverseHorizontal(this.jd);
-            if ( this.x-this.r < -1*hidden_boarder ) this.x = this.r-hidden_boarder;
-            else this.x = canvas.offsetWidth+hidden_boarder-this.r;
+            if ( this.x-this.r < -hidden_boarder-canvas.offsetWidth/2 ) this.x = this.r-hidden_boarder-canvas.offsetWidth/2;
+            else this.x = canvas.offsetWidth/2+hidden_boarder-this.r;
         }
-        if ( this.y-this.r < -1*hidden_boarder || this.y+this.r > canvas.offsetHeight+hidden_boarder ) {
+        if ( this.y-this.r < -hidden_boarder-canvas.offsetHeight/2 || this.y+this.r > canvas.offsetHeight/2+hidden_boarder ) {
             this.vd = this.reverseVertical(this.vd);
             this.ad = this.reverseVertical(this.ad);
             this.jd = this.reverseVertical(this.jd);
-            if ( this.y-this.r < -1*hidden_boarder ) this.y = this.r-hidden_boarder;
-            else this.y = canvas.offsetHeight+hidden_boarder-this.r;
+            if ( this.y-this.r < -hidden_boarder-canvas.offsetHeight/2 ) this.y = this.r-hidden_boarder-canvas.offsetHeight/2;
+            else this.y = canvas.offsetHeight/2+hidden_boarder-this.r;
         }
-
-
-        // console.log(this.vm);
     }
     draw() {        
-        ctx.beginPath();
-        ctx.arc( this.x, this.y, this.r, 0, 2 * Math.PI);
         ctx.fillStyle = this.color;
-        ctx.globalAlpha = this.alpha;
+
+        ctx.globalAlpha = this.alpha*.2;
+        ctx.beginPath();
+        ctx.arc( this.x, this.y, this.r+3.5, 0, 2 * Math.PI );
         ctx.fill();
-        // console.log(this.y);
+        ctx.globalAlpha = this.alpha*.3;
+        ctx.beginPath();
+        ctx.arc( this.x, this.y, this.r+2, 0, 2 * Math.PI );
+        ctx.fill();
+        ctx.globalAlpha = this.alpha*.3;
+        ctx.beginPath();
+        ctx.arc( this.x, this.y, this.r+1, 0, 2 * Math.PI );
+        ctx.fill();
+        ctx.globalAlpha = this.alpha*.2;
+        ctx.beginPath();
+        ctx.arc( this.x, this.y, this.r, 0, 2 * Math.PI );
+        ctx.fill();
     }
 };
 
