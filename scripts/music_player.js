@@ -41,6 +41,8 @@ function draw() { setTimeout(function() {
 }, 25);}
 
 
+
+
 function play() {
     voice.play();
     hype.play();
