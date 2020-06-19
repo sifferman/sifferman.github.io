@@ -81,6 +81,10 @@ function playToggle() {
     }
     else {
         playToggle_b.src = "media/music/icons/play-button.svg";
+        hype.currentTime = voice.currentTime;
+          eb.currentTime = voice.currentTime;
+        bass.currentTime = voice.currentTime;
+   percussion.currentTime = voice.currentTime;
         voice.pause();
          hype.pause();
            eb.pause();
@@ -118,6 +122,7 @@ function      toggle_voice() {
 var hype_b = document.getElementById("hype_mute");
 function      toggle_hype() {
     if ( hype.muted ) {
+        hype.currentTime = voice.currentTime;
         hype.muted = false;
         hype_b.src = "media/music/icons/sfx-button.svg";
     } else {
@@ -128,6 +133,7 @@ function      toggle_hype() {
 var eb_b = document.getElementById("eb_mute");
 function      toggle_eb() {
     if ( eb.muted ) {
+        eb.currentTime = voice.currentTime;
         eb.muted = false;
         eb_b.src = "media/music/icons/sfx-button.svg";
     } else {
@@ -138,6 +144,7 @@ function      toggle_eb() {
 var bass_b = document.getElementById("bass_mute");
 function      toggle_bass() {
     if ( bass.muted ) {
+        bass.currentTime = voice.currentTime;
         bass.muted = false;
         bass_b.src = "media/music/icons/sfx-button.svg";
     } else {
@@ -148,6 +155,7 @@ function      toggle_bass() {
 var percussion_b = document.getElementById("percussion_mute");
 function      toggle_percussion() {
     if ( percussion.muted ) {
+        percussion.currentTime = voice.currentTime;
         percussion.muted = false;
         percussion_b.src = "media/music/icons/sfx-button.svg";
     } else {
