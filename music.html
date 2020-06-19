@@ -16,50 +16,88 @@
 
 
 
-<audio id="hype_audio">
-    <source src="media\music\Hype.ogg" type="audio/ogg">
-    <source src="media\music\Hype.mp3" type="audio/mpeg">
-</audio>
 <audio id="voice_audio">
-    <source src="media\music\Voice.ogg" type="audio/ogg">
-    <source src="media\music\Voice.mp3" type="audio/mpeg">
+    <source src="media/music/audio/Voice.ogg" type="audio/ogg">
+    <source src="media/music/audio/Voice.mp3" type="audio/mpeg">
+</audio>
+<audio id="hype_audio">
+    <source src="media/music/audio/Hype.ogg" type="audio/ogg">
+    <source src="media/music/audio/Hype.mp3" type="audio/mpeg">
+</audio>
+<audio id="eb_audio">
+    <source src="media/music/audio/Eb.ogg" type="audio/ogg">
+    <source src="media/music/audio/Eb.mp3" type="audio/mpeg">
+</audio>
+<audio id="bass_audio">
+    <source src="media/music/audio/Bass.ogg" type="audio/ogg">
+    <source src="media/music/audio/Bass.mp3" type="audio/mpeg">
+</audio>
+<audio id="percussion_audio">
+    <source src="media/music/audio/Percussion.ogg" type="audio/ogg">
+    <source src="media/music/audio/Percussion.mp3" type="audio/mpeg">
+</audio>
+<audio id="clap_audio">
+    <source src="media/music/audio/Clap.ogg" type="audio/ogg">
+    <source src="media/music/audio/Clap.mp3" type="audio/mpeg">
+</audio>
+<audio id="raindrop_audio">
+    <source src="media/music/audio/Raindrop.ogg" type="audio/ogg">
+    <source src="media/music/audio/Raindrop.mp3" type="audio/mpeg">
+</audio>
+<audio id="ethan_audio">
+    <source src="media/music/audio/Ethan.ogg" type="audio/ogg">
+    <source src="media/music/audio/Ethan.mp3" type="audio/mpeg">
 </audio>
 
 
 
 
-<div id="player">
+<div id="player" class="unselectable">
     <canvas id="player_canvas"></canvas>
-    <img id="sheet_music" src="media\music\sheet-music.svg" alt="Sheet Music">
+    <img id="sheet_music" src="media/music/sheet_music/sheet-music.svg" alt="Sheet Music">
+
+    <img id=    "voice_mute" class="mute_button" src="media/music/icons/sfx-button.svg" alt=    "voice_mute" onclick="toggle_voice()">
+    <img id=     "hype_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt=     "hype_mute" onclick="toggle_hype()">
+    <img id=       "eb_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt=       "eb_mute" onclick="toggle_eb()">
+    <img id=     "bass_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt=     "bass_mute" onclick="toggle_bass()">
+    <img id="percussion_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt="percussion_mute" onclick="toggle_percussion()">
 </div>
 
 
 
+<header class="unselectable"><table id="header_table"><tr>
 
-
-<header class="unselectable">
+    <td>
+        <table id="control" class="header_cell_contents header_buttons"><tr>
+            <td class="button_div"><img id="playToggle_b" class="svg_button" onclick="playToggle()" src="media/music/icons/play-button.svg" alt="Play Button"></td>
+            <td id="volume">
+                <img id="volume_icon" src="media/music/icons/volume.svg" alt="Volume"> <br>
+                <input id="volume_slider" type="range" name="Volume">
+            </td>
+        </tr></table>
+    </td>
     
-    <div id="header_title"><a href="index.html">
-        Ethan Sifferman
-    </a></div>
-    
-    <table id="navigation_bar"><tr>
-        <td><a href="about.html">about</a></td>
-        <td><a href="music.html">music</a></td>
-        <td></th><a href="engineering.html">engineering</a></td>
-    </tr></table>
+    <td><div id="header_middle">
+        <div id="header_title" class="header_cell_contents"><a href="index.html">
+            Ethan Sifferman
+        </a></div>
+        
+        <table id="navigation_bar" class="header_cell_contents"><tr>
+            <td><a href="about.html">about</a></td>
+            <td><a href="music.html">music</a></td>
+            <td></th><a href="engineering.html">engineering</a></td>
+        </tr></table>
+    </div></td>
 
+    <td>
+        <table id="sfx" class="header_cell_contents header_buttons"><tr>
+            <td class="button_div"><img id="sfx1_b" class="svg_button" onclick="playClap()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
+            <td class="button_div"><img id="sfx2_b" class="svg_button" onclick="playRaindrop()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
+            <td class="button_div"><img id="sfx3_b" class="svg_button" onclick="playEthan()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
+        </tr></table>
+    </td>
 
-</header>
-
-
-
-
-<button id="play" onclick="play()">Play</button></br></br>
-<input type="checkbox" id="check_voice" onclick="toggle_voice(this)">Voice</input></br>
-<input type="checkbox" id="check_hype" onclick="toggle_hype(this)">Hype</input>
-<input type="range" name="Volume" id="volume">
-
+</tr></table></header>
 
 <script type="text/javascript" src="scripts/music_player.js"></script>
 

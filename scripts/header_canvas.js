@@ -76,7 +76,7 @@ class Ball {
         if ( Math.random() > .90 ) this.randomizeJerk();
         this.am = Math.min( .1, this.vectorSumM( this.am, this.ad, this.jm, this.jd ));
         this.ad = this.vectorSumD( this.am, this.ad, this.jm, this.jd );
-        this.vm = Math.min( .2, this.vectorSumM( this.vm, this.vd, this.am, this.ad ));
+        this.vm = Math.min( .5, this.vectorSumM( this.vm, this.vd, this.am, this.ad ));
         this.vd = this.vectorSumD( this.vm, this.vd, this.am, this.ad );
         this.x += this.vm * Math.cos( this.vd );
         this.y += this.vm * Math.sin( this.vd );
