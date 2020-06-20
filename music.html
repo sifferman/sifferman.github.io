@@ -91,9 +91,9 @@
 
     <td>
         <table id="sfx" class="header_cell_contents header_buttons"><tr>
-            <td class="button_div"><img id="sfx1_b" class="svg_button" onclick="playClap()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
-            <td class="button_div"><img id="sfx2_b" class="svg_button" onclick="playRaindrop()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
-            <td class="button_div"><img id="sfx3_b" class="svg_button" onclick="playEthan()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
+            <td class="button_div"><img id="sfx1_b" class="svg_button" onMouseDown="playClap()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
+            <td class="button_div"><img id="sfx2_b" class="svg_button" onMouseDown="playRaindrop()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
+            <td class="button_div"><img id="sfx3_b" class="svg_button" onMouseDown="playEthan()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
         </tr></table>
     </td>
 
@@ -101,9 +101,30 @@
 
 <script type="text/javascript" src="scripts/music_player.js"></script>
 
-<element onload="myScript"></element>
+<!-- <element onload="myScript"></element> -->
+
+<div class="object">
+    <img class="object image_left" src="media/music/object_images/This Love.jpg" alt="AE">
+    <div class="object_text text_right">
+        <h1 class="object">B.I.P.S. — This Love & Crocodile Rock</h1>
+        <p class="object">
+            Enter into the world of Budget Instruments Plus Singers! (B.I.P.S.)
+            What lies before you is a land of cardboard boxes, kazoos, cups, butter knives, and a half-working banjo from the internet.
+            
+        </p>
+        <a class="object" href="https://youtu.be/Vy0tAJSVBfM" target="_blank">
+            Here's the video!
+            <svg id="arrow_svg" data-name="arrow_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.38 159.09"><path class="cls-1" d="M72.63,30.85l68.08,68.08a1,1,0,0,1,0,1.41l-65.59,65.6" transform="translate(-60.63 -18.85)"/></svg>
+        </a>
+    </div>
+</div>
+
 
 <!---->
 </body> <!---------------------------------------------->
+
+
+<footer>
+</footer>
 
 </html>

@@ -50,3 +50,62 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
+footer {
+    display: block;
+    margin-top: 3%;
+}
+
+/*----------------------------------------------------------------------------*/
+
+div.object {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+}
+@media only screen and ( min-width: 1000px ) { div.object { width: 1000px; } }
+@media only screen and ( max-width: 1000px ) { div.object { width: 100%;   } }
+
+.object_text {
+    position: relative;
+    padding: 3%;
+    min-height: 180px;
+    z-index: 0;
+}
+
+/* img.object { } */
+
+/*--------------------------------------*/
+/*          NORMAL SIZE WINDOW          */
+/*--------------------------------------*/
+@media only screen and ( min-width: 750px ) {
+/**/
+
+img.object {
+    position: absolute;
+    width: 60%;
+    /* top: 50%;
+    transform: translate( 0, -50% ); */
+}
+
+.image_right { margin-left: 40%; z-index: 1; }
+.image_left { z-index: 1; }
+.text_right { margin-left: 60%; }
+.text_left { margin-right: 60%; }
+
+}
+/*--------------------------------------*/
+/*          SMALL WINDOW                */
+/*--------------------------------------*/
+@media only screen and ( max-width: 749px ) {
+/**/
+
+img.object {
+    position: relative;
+    width: 100%;
+}
+
+}
+
+/*----------------------------------------------------------------------------*/

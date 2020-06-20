@@ -152,3 +152,43 @@ header {
     text-shadow: 1px 1px 3px black, 0px 0px 1px black ;
     font-size: calc( 2.3vw );
 }
+
+
+
+/* --------------------------- */
+
+h1.object {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+
+    color: rgb(67, 149, 255);
+    
+}
+
+p.object {
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a.object {
+    color: rgb(67, 149, 255);
+}
+
+#arrow_svg {
+    height: .6em;
+}
+.cls-1 {
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 24px;
+}
