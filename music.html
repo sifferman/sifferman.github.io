@@ -50,54 +50,50 @@
 </audio>
 
 
+<header class="unselectable">
+    <div id="header_title" class="header_cell_contents"><a href="index.html">
+        Ethan Sifferman
+    </a></div>
+    
+    <table id="navigation_bar" class="header_cell_contents"><tr>
+        <td><a href="about.html">about</a></td>
+        <td><a href="music.html">music</a></td>
+        <td></th><a href="engineering.html">engineering</a></td>
+    </tr></table>
+</header>
 
 
 <div id="player" class="unselectable">
     <canvas id="player_canvas"></canvas>
     <img id="sheet_music" src="media/music/sheet_music/sheet-music.svg" alt="Sheet Music">
 
-    <img id=    "voice_mute" class="mute_button" src="media/music/icons/sfx-button.svg" alt=    "voice_mute" onclick="toggle_voice()">
-    <img id=     "hype_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt=     "hype_mute" onclick="toggle_hype()">
-    <img id=       "eb_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt=       "eb_mute" onclick="toggle_eb()">
-    <img id=     "bass_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt=     "bass_mute" onclick="toggle_bass()">
+    <img id=     "voice_mute" class="mute_button" src="media/music/icons/sfx-button.svg"  alt=     "voice_mute" onclick="toggle_voice()">
+    <img id=      "hype_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt=      "hype_mute" onclick="toggle_hype()">
+    <img id=        "eb_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt=        "eb_mute" onclick="toggle_eb()">
+    <img id=      "bass_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt=      "bass_mute" onclick="toggle_bass()">
     <img id="percussion_mute" class="mute_button" src="media/music/icons/mute-button.svg" alt="percussion_mute" onclick="toggle_percussion()">
 </div>
 
 
 
-<header class="unselectable"><table id="header_table"><tr>
+<div id="control">
 
-    <td>
-        <table id="control" class="header_cell_contents header_buttons"><tr>
-            <td class="button_div"><img id="playToggle_b" class="svg_button" onclick="playToggle()" src="media/music/icons/play-button.svg" alt="Play Button"></td>
-            <td id="volume">
-                <img id="volume_icon" src="media/music/icons/volume.svg" alt="Volume"> <br>
-                <input id="volume_slider" type="range" name="Volume">
-            </td>
-        </tr></table>
-    </td>
-    
-    <td><div id="header_middle">
-        <div id="header_title" class="header_cell_contents"><a href="index.html">
-            Ethan Sifferman
-        </a></div>
-        
-        <table id="navigation_bar" class="header_cell_contents"><tr>
-            <td><a href="about.html">about</a></td>
-            <td><a href="music.html">music</a></td>
-            <td></th><a href="engineering.html">engineering</a></td>
-        </tr></table>
-    </div></td>
+    <div id="volume">
+        <img id="volume_icon" src="media/music/icons/volume.svg" alt="Volume"> <br>
+        <input id="volume_slider" type="range" name="Volume">
+    </div>
 
-    <td>
-        <table id="sfx" class="header_cell_contents header_buttons"><tr>
-            <td class="button_div"><img id="sfx1_b" class="svg_button" onMouseDown="playClap()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
-            <td class="button_div"><img id="sfx2_b" class="svg_button" onMouseDown="playRaindrop()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
-            <td class="button_div"><img id="sfx3_b" class="svg_button" onMouseDown="playEthan()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></td>
-        </tr></table>
-    </td>
+    <div id="play">
+        <div class="button_div"><img id="playToggle_b" class="svg_button" onclick="playToggle()" src="media/music/icons/play-button.svg" alt="Play Button"></div>
+    </div>
 
-</tr></table></header>
+    <div id="sfx">
+        <div class="button_div"><img id="sfx1_b" class="svg_button" onMouseDown="playClap()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></div>
+        <div class="button_div"><img id="sfx2_b" class="svg_button" onMouseDown="playRaindrop()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></div>
+        <div class="button_div"><img id="sfx3_b" class="svg_button" onMouseDown="playEthan()" src="media/music/icons/sfx-button.svg" alt="SFX Button"></div>
+    </div>
+
+</div>
 
 <script type="text/javascript" src="scripts/music_player.js"></script>
 
@@ -106,7 +102,7 @@
 <div class="object">
     <img class="object image_left" src="media/music/object_images/This Love.jpg" alt="AE">
     <div class="object_text text_right">
-        <h1 class="object">B.I.P.S. — This Love & Crocodile Rock</h1>
+        <h1 class="object">B.I.P.S. - This Love & Crocodile Rock</h1>
         <p class="object">
             Enter into the world of Budget Instruments Plus Singers! (B.I.P.S.)
             What lies before you is a land of cardboard boxes, kazoos, cups, butter knives, and a half-working banjo from the internet.
@@ -114,7 +110,7 @@
         </p>
         <a class="object" href="https://youtu.be/Vy0tAJSVBfM" target="_blank">
             Here's the video!
-            <svg id="arrow_svg" data-name="arrow_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.38 159.09"><path class="cls-1" d="M72.63,30.85l68.08,68.08a1,1,0,0,1,0,1.41l-65.59,65.6" transform="translate(-60.63 -18.85)"/></svg>
+            <img src="media/hlink_arrow-4395FF.svg" alt="arrow">
         </a>
     </div>
 </div>
