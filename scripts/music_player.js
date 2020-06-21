@@ -45,6 +45,8 @@ function fitToContainer() {
 
 const line_begin = .154;
 const line_end   = .945;
+const measures = 7;
+var Ireset = 0;
 function draw() { setTimeout(function() {
 
     ctx.clearRect(0, 0, canvas.offsetWidth, canvas.offsetHeight);
@@ -60,9 +62,23 @@ function draw() { setTimeout(function() {
     ctx.lineTo( line_x, canvas.offsetHeight * .98 );
     ctx.stroke();
 
+    if ( t*measures-1.5 > Ireset || ( Ireset==6 && t*measures < .5 ) ) {
+        sync();
+        Ireset++;
+        Ireset %= ( measures );
+        console.log(Ireset);
+    }
+
     requestAnimationFrame(draw);
 }, 0);}
 
+function sync() {
+    const delay = .01;
+    if (       hype.currentTime - voice.currentTime > delay )       hype.currentTime = voice.currentTime;
+    if (         eb.currentTime - voice.currentTime > delay )         eb.currentTime = voice.currentTime;
+    if (       bass.currentTime - voice.currentTime > delay )       bass.currentTime = voice.currentTime;
+    if ( percussion.currentTime - voice.currentTime > delay ) percussion.currentTime = voice.currentTime;
+}
 
 
 var paused = true;
@@ -81,10 +97,7 @@ function playToggle() {
     }
     else {
         playToggle_b.src = "media/music/icons/play-button.svg";
-        hype.currentTime = voice.currentTime;
-          eb.currentTime = voice.currentTime;
-        bass.currentTime = voice.currentTime;
-   percussion.currentTime = voice.currentTime;
+        sync();
         voice.pause();
          hype.pause();
            eb.pause();
@@ -96,15 +109,12 @@ function playToggle() {
 
 // repeat
 voice.addEventListener("ended", function() {
-        voice.currentTime = 0;
-         hype.currentTime = 0;
-           eb.currentTime = 0;
-         bass.currentTime = 0;
-    percussion.currentTime = 0;
-        voice.play();
-         hype.play();
-           eb.play();
-         bass.play();
+    voice.currentTime = 0;
+    sync();
+         voice.play();
+          hype.play();
+            eb.play();
+          bass.play();
     percussion.play();
 });
 
