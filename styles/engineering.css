@@ -1,0 +1,31 @@
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+header {
+    background-color: black;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+#header_title { color: #BFBFBF; text-shadow: 1px 1px 8px black; }
+#navigation_bar { text-shadow: 1px 1px 5px black, 0px 0px 2px black; }
+#about { color: #00BF00; }
+#music { color: #BF00BF; }
+#engineering { color: #00BFBF; }
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* INTERACTIVE HEADER */
+
+#space {
+    background-color: black;
+    position: relative;
+    height: calc( 22.9vw + 7vmin + 70px );
+    width: 100%;
+}
+
+#space_canvas {
+    display: block;
+    position: absolute;
+    top: -180px;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */

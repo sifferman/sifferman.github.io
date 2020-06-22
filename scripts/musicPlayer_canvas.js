@@ -40,7 +40,7 @@ function fitToContainer() {
     canvas.style.width = "100%";
     canvas.width  = canvas.offsetWidth;
     canvas.height = sheet_music.height * 1.1;
-    console.log(canvas.height);
+    // console.log(canvas.height);
 }
 
 const line_begin = .154;
@@ -59,14 +59,14 @@ function draw() { setTimeout(function() {
     ctx.globalAlpha = .5;
     ctx.beginPath();
     ctx.moveTo( line_x, canvas.offsetHeight * .02 );
-    ctx.lineTo( line_x, canvas.offsetHeight * .98 );
+    ctx.lineTo( line_x, canvas.offsetHeight * .93 );
     ctx.stroke();
 
     if ( t*measures-1.5 > Ireset || ( Ireset==6 && t*measures < .5 ) ) {
         sync();
         Ireset++;
         Ireset %= ( measures );
-        console.log(Ireset);
+        // console.log(Ireset);
     }
 
     requestAnimationFrame(draw);
@@ -74,10 +74,10 @@ function draw() { setTimeout(function() {
 
 function sync() {
     const delay = .01;
-    if (       hype.currentTime - voice.currentTime > delay )       hype.currentTime = voice.currentTime;
-    if (         eb.currentTime - voice.currentTime > delay )         eb.currentTime = voice.currentTime;
-    if (       bass.currentTime - voice.currentTime > delay )       bass.currentTime = voice.currentTime;
-    if ( percussion.currentTime - voice.currentTime > delay ) percussion.currentTime = voice.currentTime;
+    if ( Math.abs(       hype.currentTime - voice.currentTime ) > delay )       hype.currentTime = voice.currentTime;
+    if ( Math.abs(         eb.currentTime - voice.currentTime ) > delay )         eb.currentTime = voice.currentTime;
+    if ( Math.abs(       bass.currentTime - voice.currentTime ) > delay )       bass.currentTime = voice.currentTime;
+    if ( Math.abs( percussion.currentTime - voice.currentTime ) > delay ) percussion.currentTime = voice.currentTime;
 }
 
 

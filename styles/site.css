@@ -25,7 +25,16 @@ body {
 
 .hidden { display: none; }
 
-img { -webkit-user-drag: none; }
+img {
+    -webkit-user-drag: none;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 
 table {
@@ -85,11 +94,13 @@ header {
 }
 
 #navigation_bar {
-    display: block;
+    /* display: block; */
     position: absolute;
     z-index: 40;
+    table-layout: fixed ;
+    width: 20em;
 
-    border-spacing: 3vmin 4px;
+    /* border-spacing: 3vmin 4px; */
 
     transform: translate(-50%,-100%);
     top: 100%;
@@ -97,6 +108,12 @@ header {
 
     color: currentColor;
     font-size: calc(20px + .5vmin);
+}
+@media only screen and ( max-width: 500px ) { #navigation_bar { width: 90%; } }
+
+#navigation_bar > td {
+
+    width: 33%;
 }
 
 /*----------------------------------------------------------------------------*/
