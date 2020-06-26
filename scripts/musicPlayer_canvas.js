@@ -2,25 +2,25 @@ var volume_slider = document.getElementById( "volume_slider" );
 
 var voice = document.getElementById("voice_audio");
 voice.muted = false;
-voice.volume = volume_slider.value/100;
+voice.volume = volume_slider.value;
 var hype = document.getElementById("hype_audio");
 hype.muted = true;
-hype.volume = volume_slider.value/100;
+hype.volume = volume_slider.value;
 var eb = document.getElementById("eb_audio");
 eb.muted = true;
-eb.volume = volume_slider.value/100;
+eb.volume = volume_slider.value;
 var bass = document.getElementById("bass_audio");
 bass.muted = true;
-bass.volume = volume_slider.value/100;
+bass.volume = volume_slider.value;
 var percussion = document.getElementById("percussion_audio");
 percussion.muted = true;
-percussion.volume = volume_slider.value/100;
+percussion.volume = volume_slider.value;
 var clap = document.getElementById("clap_audio");
-clap.volume = volume_slider.value/100;
+clap.volume = volume_slider.value;
 var raindrop = document.getElementById("raindrop_audio");
-raindrop.volume = volume_slider.value/100;
+raindrop.volume = volume_slider.value;
 var ethan = document.getElementById("ethan_audio");
-ethan.volume = volume_slider.value/100;
+ethan.volume = volume_slider.value;
 
 
 
@@ -176,14 +176,14 @@ function      toggle_percussion() {
 
 // volume
 volume_slider.oninput = function() {
-        voice.volume = this.value/100;
-         hype.volume = this.value/100;
-           eb.volume = this.value/100;
-         bass.volume = this.value/100;
-    percussion.volume = this.value/100;
-    clap.volume = this.value/100;
-    raindrop.volume = this.value/100;
-ethan.volume = this.value/100;
+        voice.volume = this.value;
+         hype.volume = this.value;
+           eb.volume = this.value;
+         bass.volume = this.value;
+    percussion.volume = this.value;
+    clap.volume = this.value;
+    raindrop.volume = this.value;
+ethan.volume = this.value;
 }
 
 function playClap() {
