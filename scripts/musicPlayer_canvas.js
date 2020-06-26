@@ -73,26 +73,26 @@ function draw() { setTimeout(function() {
 }, 0);}
 
 var play_delay = 0;
-const delay = .05;
-function sync() {
+const delay = .09;
+function sync( w_delay = 1 ) {
 
     let temp_delay = hype.currentTime - voice.currentTime;
     if ( temp_delay > 10 ) temp_delay = 0;
     play_delay += temp_delay;
 
     if ( Math.abs( hype.currentTime - voice.currentTime ) > delay ) {
-        hype.currentTime = voice.currentTime - play_delay;
+        hype.currentTime = voice.currentTime - play_delay*w_delay;
     }
     if ( Math.abs( eb.currentTime - voice.currentTime ) > delay ) {
-        eb.currentTime = voice.currentTime - play_delay;
+        eb.currentTime = voice.currentTime - play_delay*w_delay;
     }
     if ( Math.abs( bass.currentTime - voice.currentTime ) > delay ) {
-        bass.currentTime = voice.currentTime - play_delay;
+        bass.currentTime = voice.currentTime - play_delay*w_delay;
     }
     if ( Math.abs( percussion.currentTime - voice.currentTime ) > delay ) {
-        percussion.currentTime = voice.currentTime - play_delay;
+        percussion.currentTime = voice.currentTime - play_delay*w_delay;
     }
-    console.log( play_delay );
+    console.log( play_delay*w_delay );
 }
 
 
@@ -112,7 +112,7 @@ function playToggle() {
     }
     else {
         playToggle_b.src = "media/music/icons/play-button.svg";
-        sync();
+        sync( 0 );
         voice.pause();
          hype.pause();
            eb.pause();
@@ -125,7 +125,7 @@ function playToggle() {
 // repeat
 voice.addEventListener("ended", function() {
     voice.currentTime = 0;
-    sync();
+    sync( 0 );
          voice.play();
           hype.play();
             eb.play();
