@@ -73,24 +73,24 @@ function draw() { setTimeout(function() {
 }, 0);}
 
 var play_delay = 0;
-const delay = .09;
+const delay = .05;
 function sync( w_delay = 1 ) {
 
-    let temp_delay = hype.currentTime - voice.currentTime;
-    if ( temp_delay > 10 ) temp_delay = 0;
+    let temp_delay = hype.currentTime - voice.currentTime; // how much ahead hype is to voice
+    if ( temp_delay > 1 ) temp_delay = 0;
     play_delay += temp_delay;
 
     if ( Math.abs( hype.currentTime - voice.currentTime ) > delay ) {
-        hype.currentTime = voice.currentTime - play_delay*w_delay;
+        { hype.currentTime = voice.currentTime - play_delay*w_delay; console.log( "hype" ); }
     }
     if ( Math.abs( eb.currentTime - voice.currentTime ) > delay ) {
-        eb.currentTime = voice.currentTime - play_delay*w_delay;
+        { eb.currentTime = voice.currentTime - play_delay*w_delay; console.log( "eb" ); }
     }
     if ( Math.abs( bass.currentTime - voice.currentTime ) > delay ) {
-        bass.currentTime = voice.currentTime - play_delay*w_delay;
+        { bass.currentTime = voice.currentTime - play_delay*w_delay; console.log( "bass" ); }
     }
     if ( Math.abs( percussion.currentTime - voice.currentTime ) > delay ) {
-        percussion.currentTime = voice.currentTime - play_delay*w_delay;
+        { percussion.currentTime = voice.currentTime - play_delay*w_delay; console.log( "percussion" ); }
     }
     console.log( play_delay*w_delay );
 }
