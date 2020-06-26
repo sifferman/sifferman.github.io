@@ -72,12 +72,27 @@ function draw() { setTimeout(function() {
     requestAnimationFrame(draw);
 }, 0);}
 
+var play_delay = 0;
+const delay = .05;
 function sync() {
-    const delay = .01;
-    if ( Math.abs(       hype.currentTime - voice.currentTime ) > delay )       hype.currentTime = voice.currentTime;
-    if ( Math.abs(         eb.currentTime - voice.currentTime ) > delay )         eb.currentTime = voice.currentTime;
-    if ( Math.abs(       bass.currentTime - voice.currentTime ) > delay )       bass.currentTime = voice.currentTime;
-    if ( Math.abs( percussion.currentTime - voice.currentTime ) > delay ) percussion.currentTime = voice.currentTime;
+
+    let temp_delay = hype.currentTime - voice.currentTime;
+    if ( temp_delay > 10 ) temp_delay = 0;
+    play_delay += temp_delay;
+
+    if ( Math.abs( hype.currentTime - voice.currentTime ) > delay ) {
+        hype.currentTime = voice.currentTime - play_delay;
+    }
+    if ( Math.abs( eb.currentTime - voice.currentTime ) > delay ) {
+        eb.currentTime = voice.currentTime - play_delay;
+    }
+    if ( Math.abs( bass.currentTime - voice.currentTime ) > delay ) {
+        bass.currentTime = voice.currentTime - play_delay;
+    }
+    if ( Math.abs( percussion.currentTime - voice.currentTime ) > delay ) {
+        percussion.currentTime = voice.currentTime - play_delay;
+    }
+    console.log( play_delay );
 }
 
 
