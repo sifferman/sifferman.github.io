@@ -93,7 +93,7 @@ function sync( w_delay = 1 ) {
             play_delay[i] += ( (Math.abs(temp_delay)>1) ? 0:temp_delay );
             audio[i].currentTime = audio[0].currentTime - play_delay[i]*w_delay;
         }
-        console.log( i.toString()+": "+play_delay[i].toString() );
+        // console.log( i.toString()+": "+play_delay[i].toString() );
     }
 
 }
