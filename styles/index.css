@@ -7,7 +7,7 @@ header {
 
 #header_title { text-shadow: 2px 2px 8px black, 0px 0px 1px black; }
 
-#navigation_bar { text-shadow: 1px 1px 5px black, 1px 1px 3px black, 0px 0px 1px black; }
+.navigation_bar { text-shadow: 1px 1px 5px black, 1px 1px 3px black, 0px 0px 1px black; }
 
 /* --------------------------------------------------------------------------------------------------------- */
 

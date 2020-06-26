@@ -16,11 +16,17 @@ function fitToContainer() {
     ctx.translate(canvas.offsetWidth/2, canvas.offsetHeight/2);
 }
 
+var friction = document.getElementById("friction").value;
+var speed = document.getElementById("speed").value;
+var distance_exponant = document.getElementById("distance_exponant").value;
+var num_planets = document.getElementById("num_planets").value;
+
+var planets = [ ];
 class Planet {
     constructor() {
         this.r = 3 + Math.random() * 16;
         this.color = "#" + Math.floor(Math.random()*16777215).toString(16);
-        this.g = Math.pow( this.r, 2 )/10;
+        this.g = Math.pow( this.r, 2 )/3;
         this.x = Math.random() * canvas.offsetWidth - canvas.offsetWidth/2;
         this.y = Math.random() * canvas.offsetHeight - canvas.offsetHeight/2;
         this.vm = Math.random() * 2;
@@ -28,18 +34,17 @@ class Planet {
         this.am = 0;
         this.ad = 0;
     }
-    static #planets = [ ];
-    static init( num_planets ) {
-        for ( var i = 0; i < num_planets; i++ )
-            Planet.#planets.push( new Planet() );
-        Planet.#planets.sort(function(a, b) { return b.r - a.r; });
-    }
-    static step() { for ( var p of Planet.#planets ) p.step(); }
-    static draw() { for ( var p of Planet.#planets ) p.draw(); }
+    static init() { Planet.update_num_planets(); }
+    static step() { for ( var p of planets ) p.step(); }
+    static draw() { for ( var p of planets ) p.draw(); }
     changeAcceleration( planet ) {
         // find accelleration due to Gravity
-        var AM = planet.g / ( Math.pow(this.x-planet.x,2) + Math.pow(this.y-planet.y,2) );
-        AM = Math.min( AM, 10 );
+        var AM = planet.g /
+            Math.pow(
+                Math.pow(this.x-planet.x,2) + Math.pow(this.y-planet.y,2),
+                1/2 * distance_exponant
+            );
+        AM = Math.min( AM, 100 );
         // find accelleration direction
         var AD = Math.atan2( planet.y-this.y, planet.x-this.x );
         // add accelleration vector
@@ -67,12 +72,19 @@ class Planet {
     reverseVertical( d ) {
         return 2*Math.PI - d;
     }
+    static update_num_planets() {
+        while ( num_planets > planets.length )
+            planets.push( new Planet() );
+        while ( num_planets < planets.length )
+            planets.pop();
+        planets.sort(function(a, b) { return b.r - a.r; });
+    }
     step() {
-        this.vm = this.vectorSumM( this.vm, this.vd, this.am, this.ad );
-        this.vd = this.vectorSumD( this.vm, this.vd, this.am, this.ad );
-        this.vm *= .9925;
-        this.x += this.vm * Math.cos( this.vd );
-        this.y += this.vm * Math.sin( this.vd );
+        this.vm = this.vectorSumM( this.vm, this.vd, this.am*speed, this.ad);
+        this.vd = this.vectorSumD( this.vm, this.vd, this.am*speed, this.ad );
+        this.vm *= 1 - Math.pow( friction, 1/speed );
+        this.x += this.vm * Math.cos( this.vd )*speed / 10;
+        this.y += this.vm * Math.sin( this.vd )*speed / 10;
 
         if ( this.x-this.r < -canvas.offsetWidth/2 || this.x+this.r > canvas.offsetWidth/2 ) {
             this.vd = this.reverseHorizontal(this.vd);
@@ -86,9 +98,11 @@ class Planet {
         }
 
         this.am = 0;
-        for ( var p of Planet.#planets )
+        for ( var p of planets )
             if ( p != this )
                 this.changeAcceleration( p );
+
+        // if ( this == Planet.#planets[0] ) console.log( this.vm );
     }
     draw() {
         ctx.fillStyle = this.color;
@@ -100,7 +114,21 @@ class Planet {
     }
 }
 
-Planet.init( 20 );
+Planet.init();
+
+document.getElementById("friction").oninput = function()
+    { friction = this.value; console.log("friction: "); console.log(friction); }
+document.getElementById("speed").oninput = function()
+    { speed = this.value; console.log("speed: "); console.log(speed); }
+document.getElementById("distance_exponant").oninput = function()
+    { distance_exponant = this.value; console.log("distance_exponant: "); console.log(distance_exponant); }
+document.getElementById("num_planets").oninput = function()
+    { num_planets = this.value; Planet.update_num_planets(); console.log("num_planets: "); console.log(num_planets); }
+
+
+
+
+
 
 
 function draw() { setTimeout(function() {
@@ -112,4 +140,4 @@ function draw() { setTimeout(function() {
 
     requestAnimationFrame(draw);
 
-}, 30);}
+}, 20);}

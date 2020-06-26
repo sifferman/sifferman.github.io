@@ -62,7 +62,7 @@ a {
 
 footer {
     display: block;
-    margin-top: 3%;
+    margin-top: calc( 2% + 8px );
 }
 
 /*----------------------------------------------------------------------------*/
@@ -93,11 +93,11 @@ header {
     font-size: calc(30px + 3vmin);
 }
 
-#navigation_bar {
+table.navigation_bar {
     /* display: block; */
     position: absolute;
     z-index: 40;
-    table-layout: fixed ;
+    table-layout: fixed;
     width: 20em;
 
     /* border-spacing: 3vmin 4px; */
@@ -111,8 +111,7 @@ header {
 }
 @media only screen and ( max-width: 500px ) { #navigation_bar { width: 90%; } }
 
-#navigation_bar > td {
-
+td.navigation_bar {
     width: 33%;
 }
 
