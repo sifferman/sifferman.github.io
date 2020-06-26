@@ -72,35 +72,37 @@ function draw() { setTimeout(function() {
     requestAnimationFrame(draw);
 }, 0);}
 
-var play_delay = 0;
+var hype_delay = 0;
+var eb_delay = 0;
+var bass_delay = 0;
+var percussion_delay = 0;
 const delay = .05;
 function sync( w_delay = 1 ) {
 
     if ( Math.abs( hype.currentTime - voice.currentTime ) > delay ) {
         let temp_delay = hype.currentTime - voice.currentTime;
-        play_delay += ( (temp_delay>1) ? 0:temp_delay );
-        hype.currentTime = voice.currentTime - play_delay*w_delay;
+        hype_delay += ( (temp_delay>1) ? 0:temp_delay );
+        hype.currentTime = voice.currentTime - hype_delay*w_delay;
         console.log( "hype" );
     }
     if ( Math.abs( eb.currentTime - voice.currentTime ) > delay ) {
         let temp_delay = eb.currentTime - voice.currentTime;
-        play_delay += ( (temp_delay>1) ? 0:temp_delay );
-        eb.currentTime = voice.currentTime - play_delay*w_delay;
+        eb_delay += ( (temp_delay>1) ? 0:temp_delay );
+        eb.currentTime = voice.currentTime - eb_delay*w_delay;
         console.log( "eb" );
     }
     if ( Math.abs( bass.currentTime - voice.currentTime ) > delay ) {
         let temp_delay = bass.currentTime - voice.currentTime;
-        play_delay += ( (temp_delay>1) ? 0:temp_delay );
-        bass.currentTime = voice.currentTime - play_delay*w_delay;
+        bass_delay += ( (temp_delay>1) ? 0:temp_delay );
+        bass.currentTime = voice.currentTime - bass_delay*w_delay;
         console.log( "bass" );
     }
     if ( Math.abs( percussion.currentTime - voice.currentTime ) > delay ) {
         let temp_delay = percussion.currentTime - voice.currentTime;
-        play_delay += ( (temp_delay>1) ? 0:temp_delay );
-        percussion.currentTime = voice.currentTime - play_delay*w_delay;
+        percussion_delay += ( (temp_delay>1) ? 0:temp_delay );
+        percussion.currentTime = voice.currentTime - percussion_delay*w_delay;
         console.log( "percussion" );
     }
-    console.log( play_delay*w_delay );
 }
 
 
@@ -155,7 +157,7 @@ function      toggle_voice() {
 var hype_b = document.getElementById("hype_mute");
 function      toggle_hype() {
     if ( hype.muted ) {
-        hype.currentTime = voice.currentTime - play_delay;
+        hype.currentTime = voice.currentTime - hype_delay;
         hype.muted = false;
         hype_b.src = "media/music/icons/sfx-button.svg";
     } else {
@@ -166,7 +168,7 @@ function      toggle_hype() {
 var eb_b = document.getElementById("eb_mute");
 function      toggle_eb() {
     if ( eb.muted ) {
-        eb.currentTime = voice.currentTime - play_delay;
+        eb.currentTime = voice.currentTime - eb_delay;
         eb.muted = false;
         eb_b.src = "media/music/icons/sfx-button.svg";
     } else {
@@ -177,7 +179,7 @@ function      toggle_eb() {
 var bass_b = document.getElementById("bass_mute");
 function      toggle_bass() {
     if ( bass.muted ) {
-        bass.currentTime = voice.currentTime - play_delay;
+        bass.currentTime = voice.currentTime - bass_delay;
         bass.muted = false;
         bass_b.src = "media/music/icons/sfx-button.svg";
     } else {
@@ -188,7 +190,7 @@ function      toggle_bass() {
 var percussion_b = document.getElementById("percussion_mute");
 function      toggle_percussion() {
     if ( percussion.muted ) {
-        percussion.currentTime = voice.currentTime - play_delay;
+        percussion.currentTime = voice.currentTime - percussion_delay;
         percussion.muted = false;
         percussion_b.src = "media/music/icons/sfx-button.svg";
     } else {
