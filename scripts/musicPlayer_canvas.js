@@ -1,20 +1,19 @@
 var volume_slider = document.getElementById( "volume_slider" );
 
-var voice = document.getElementById("voice_audio");
-voice.muted = false;
-voice.volume = volume_slider.value;
-var hype = document.getElementById("hype_audio");
-hype.muted = true;
-hype.volume = volume_slider.value;
-var eb = document.getElementById("eb_audio");
-eb.muted = true;
-eb.volume = volume_slider.value;
-var bass = document.getElementById("bass_audio");
-bass.muted = true;
-bass.volume = volume_slider.value;
-var percussion = document.getElementById("percussion_audio");
-percussion.muted = true;
-percussion.volume = volume_slider.value;
+var audio = [ ];
+audio.push( document.getElementById("voice_audio") );
+audio.push( document.getElementById("hype_audio") );
+audio.push( document.getElementById("eb_audio") );
+audio.push( document.getElementById("bass_audio") );
+audio.push( document.getElementById("percussion_audio") );
+for ( var a of audio ) {
+    a.muted = true;
+    a.volume = volume_slider.value;
+    a.currentTime = 0;
+}
+audio[0].muted = false;
+
+
 var clap = document.getElementById("clap_audio");
 clap.volume = volume_slider.value;
 var raindrop = document.getElementById("raindrop_audio");
@@ -22,6 +21,17 @@ raindrop.volume = volume_slider.value;
 var ethan = document.getElementById("ethan_audio");
 ethan.volume = volume_slider.value;
 
+
+var mute_buttons = [ ];
+mute_buttons.push( document.getElementById("voice_mute") );
+mute_buttons.push( document.getElementById("hype_mute") );
+mute_buttons.push( document.getElementById("eb_mute") );
+mute_buttons.push( document.getElementById("bass_mute") );
+mute_buttons.push( document.getElementById("percussion_mute") );
+
+
+var play_delay = [ ];
+while ( play_delay.length < 5 ) play_delay.push( 0 );
 
 
 
@@ -51,7 +61,7 @@ function draw() { setTimeout(function() {
 
     ctx.clearRect(0, 0, canvas.offsetWidth, canvas.offsetHeight);
     
-    var t = ( 4*voice.currentTime / voice.duration ) % 1;
+    var t = ( 4*audio[0].currentTime / audio[0].duration ) % 1;
     var line_x = canvas.offsetWidth * ( line_begin + t * ( line_end - line_begin ) );
 
     ctx.lineWidth = canvas.offsetWidth / 350;
@@ -72,37 +82,19 @@ function draw() { setTimeout(function() {
     requestAnimationFrame(draw);
 }, 0);}
 
-var hype_delay = 0;
-var eb_delay = 0;
-var bass_delay = 0;
-var percussion_delay = 0;
+
 const delay = .05;
 function sync( w_delay = 1 ) {
+    for ( var i = 1; i < audio.length; i++ ) {
 
-    if ( Math.abs( hype.currentTime - voice.currentTime ) > delay ) {
-        let temp_delay = hype.currentTime - voice.currentTime;
-        hype_delay += ( (temp_delay>1) ? 0:temp_delay );
-        hype.currentTime = voice.currentTime - hype_delay*w_delay;
-        console.log( "hype" );
+        if ( Math.abs( audio[i].currentTime - audio[0].currentTime ) > delay ) {
+
+            let temp_delay = audio[i].currentTime - audio[0].currentTime;
+            play_delay[i] += ( (Math.abs(temp_delay)>1) ? 0:temp_delay );
+            audio[i].currentTime = audio[0].currentTime - play_delay[i]*w_delay;
+        }
     }
-    if ( Math.abs( eb.currentTime - voice.currentTime ) > delay ) {
-        let temp_delay = eb.currentTime - voice.currentTime;
-        eb_delay += ( (temp_delay>1) ? 0:temp_delay );
-        eb.currentTime = voice.currentTime - eb_delay*w_delay;
-        console.log( "eb" );
-    }
-    if ( Math.abs( bass.currentTime - voice.currentTime ) > delay ) {
-        let temp_delay = bass.currentTime - voice.currentTime;
-        bass_delay += ( (temp_delay>1) ? 0:temp_delay );
-        bass.currentTime = voice.currentTime - bass_delay*w_delay;
-        console.log( "bass" );
-    }
-    if ( Math.abs( percussion.currentTime - voice.currentTime ) > delay ) {
-        let temp_delay = percussion.currentTime - voice.currentTime;
-        percussion_delay += ( (temp_delay>1) ? 0:temp_delay );
-        percussion.currentTime = voice.currentTime - percussion_delay*w_delay;
-        console.log( "percussion" );
-    }
+
 }
 
 
@@ -114,101 +106,49 @@ function playToggle() {
     
     if ( !paused ) {
         playToggle_b.src = "media/music/icons/pause-button.svg";
-        voice.play();
-         hype.play();
-           eb.play();
-         bass.play();
-    percussion.play();
+        for ( var a of audio ) a.play();
     }
     else {
         playToggle_b.src = "media/music/icons/play-button.svg";
         sync( 0 );
-        voice.pause();
-         hype.pause();
-           eb.pause();
-         bass.pause();
-    percussion.pause();
+        for ( var a of audio ) a.pause();
     }
 
 }
 
 // repeat
-voice.addEventListener("ended", function() {
-    voice.currentTime = 0;
+audio[0].addEventListener("ended", function() {
+    audio[0].currentTime = 0;
     sync( 0 );
-         voice.play();
-          hype.play();
-            eb.play();
-          bass.play();
-    percussion.play();
+    for ( var a of audio ) a.play();
 });
 
 // mute
-var voice_b = document.getElementById("voice_mute");
-function      toggle_voice() {
-    if ( voice.muted ) {
-        voice.muted = false;
-        voice_b.src = "media/music/icons/sfx-button.svg";
+
+function toggle_voice()      { toggle_mute(0); }
+function toggle_hype()       { toggle_mute(1); }
+function toggle_eb()         { toggle_mute(2); }
+function toggle_bass()       { toggle_mute(3); }
+function toggle_percussion() { toggle_mute(4); }
+
+function toggle_mute( i ) {
+    if ( audio[i].muted ) {
+        audio[i].muted = false;
+        audio[i].currentTime = audio[0].currentTime - play_delay[i];
+        mute_buttons[i].src = "media/music/icons/sfx-button.svg";
     } else {
-        voice.muted = true;
-        voice_b.src = "media/music/icons/mute-button.svg";
-    }
-}
-var hype_b = document.getElementById("hype_mute");
-function      toggle_hype() {
-    if ( hype.muted ) {
-        hype.currentTime = voice.currentTime - hype_delay;
-        hype.muted = false;
-        hype_b.src = "media/music/icons/sfx-button.svg";
-    } else {
-        hype.muted = true;
-        hype_b.src = "media/music/icons/mute-button.svg";
-    }
-}
-var eb_b = document.getElementById("eb_mute");
-function      toggle_eb() {
-    if ( eb.muted ) {
-        eb.currentTime = voice.currentTime - eb_delay;
-        eb.muted = false;
-        eb_b.src = "media/music/icons/sfx-button.svg";
-    } else {
-        eb.muted = true;
-        eb_b.src = "media/music/icons/mute-button.svg";
-    }
-}
-var bass_b = document.getElementById("bass_mute");
-function      toggle_bass() {
-    if ( bass.muted ) {
-        bass.currentTime = voice.currentTime - bass_delay;
-        bass.muted = false;
-        bass_b.src = "media/music/icons/sfx-button.svg";
-    } else {
-        bass.muted = true;
-        bass_b.src = "media/music/icons/mute-button.svg";
-    }
-}
-var percussion_b = document.getElementById("percussion_mute");
-function      toggle_percussion() {
-    if ( percussion.muted ) {
-        percussion.currentTime = voice.currentTime - percussion_delay;
-        percussion.muted = false;
-        percussion_b.src = "media/music/icons/sfx-button.svg";
-    } else {
-        percussion.muted = true;
-        percussion_b.src = "media/music/icons/mute-button.svg";
+        audio[i].muted = true;
+        mute_buttons[i].src = "media/music/icons/mute-button.svg";
     }
 }
 
+
 // volume
 volume_slider.oninput = function() {
-        voice.volume = this.value;
-         hype.volume = this.value;
-           eb.volume = this.value;
-         bass.volume = this.value;
-    percussion.volume = this.value;
+    for ( var a of audio ) a.volume = this.value;
     clap.volume = this.value;
     raindrop.volume = this.value;
-ethan.volume = this.value;
+    ethan.volume = this.value;
 }
 
 function playClap() {
@@ -224,10 +164,10 @@ function playEthan() {
     ethan.play();
 }
 
+document.addEventListener("visibilitychange", handleVisibilityChange, false);
 function handleVisibilityChange() {
     if ( document.hidden ) {
         paused = false;
         playToggle();
     }
 }
-document.addEventListener("visibilitychange", handleVisibilityChange, false);
