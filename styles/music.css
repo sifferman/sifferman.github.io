@@ -6,9 +6,13 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#header_title { text-shadow: 2px 2px 8px black, 0px 0px 1px black; }
+#header_title { text-shadow: 2px 2px 8px rgb(0,0,0,.5); }
 
-.navigation_bar { text-shadow: 0px 0px 4px black; }
+.navigation_bar { text-shadow: 0px 0px 4px rgb(0,0,0,.5); }
+
+#music {
+    text-shadow: 0px 0px 17px rgb(0,0,0,1);
+}
 
 /* --------------------------------------------------------------------------------------------------------- */
 

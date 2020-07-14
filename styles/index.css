@@ -11,6 +11,17 @@ header { }
 
 .navigation_bar { text-shadow: 1px 1px 5px black, 1px 1px 3px black, 0px 0px 1px black; }
 
+#about {
+    display: inline;
+    background-color: #a1a1a1;
+    background-color: rgba(46, 46, 46, 0.25);
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+
+    padding: 7%;
+    padding-top: 2.5%;
+    padding-bottom: 3%;
+}
+
 /* --------------------------------------------------------------------------------------------------------- */
 
 #header_canvas {

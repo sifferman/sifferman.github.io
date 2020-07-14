@@ -13,6 +13,13 @@ header { font-family: "Lucida Console", Monaco, monospace; }
 #music { color: #BF00BF; }
 #engineering { color: #00BFBF; }
 
+
+#engineering {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
 /* --------------------------------------------------------------------------------------------------------- */
 /* INTERACTIVE HEADER */
 

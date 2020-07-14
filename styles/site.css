@@ -58,6 +58,7 @@ a {
     color: currentColor;
     text-decoration: none;
     cursor: pointer;
+    display: contents;
 }
 
 footer {
@@ -142,7 +143,7 @@ h1.object {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-
+    
     color: #4395FF;
     
 }
@@ -153,13 +154,15 @@ p.object {
     margin-bottom: .5em;
     margin-left: 0;
     margin-right: 0;
+
+    /* pointer-events: none; */
 }
 
-a.object {
+p.link {
     color: #4395FF;
 }
-
-a.object > img {
+/* arrow */
+p.link > img {
     height: .7em;
 }
 
