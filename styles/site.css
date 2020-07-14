@@ -130,6 +130,7 @@ div.object {
 .object_text {
     position: relative;
     padding: 3%;
+    padding-top: 0;
     min-height: 180px;
     z-index: 0;
 }
@@ -155,7 +156,7 @@ p.object {
     margin-left: 0;
     margin-right: 0;
 
-    /* pointer-events: none; */
+    pointer-events: none;
 }
 
 p.link {
@@ -166,7 +167,7 @@ p.link > img {
     height: .7em;
 }
 
-
+img.object { background-color: #696969; }
 
 /*--------------------------------------*/
 /*          NORMAL SIZE WINDOW          */
