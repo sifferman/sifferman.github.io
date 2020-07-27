@@ -6,7 +6,7 @@ html { background-color: #252525; }
 
 header { font-family: "Lucida Console", Monaco, monospace; }
 #header_title {
-    font-size: calc(20px + 4vmin);
+    font-size: calc(18px + 4vmin);
     color: #BFBFBF; text-shadow: 1px 1px 8px black;
 }
 .navigation_bar { text-shadow: 1px 1px 5px black, 0px 0px 2px black; }

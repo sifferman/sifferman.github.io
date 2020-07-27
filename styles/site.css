@@ -116,6 +116,11 @@ td.navigation_bar {
     width: 33%;
 }
 
+#about, #music, #engineering { transition: transform .2s; }
+#about:hover,  #music:hover,  #engineering:hover  { transform: scale(1.10); }
+#about:active, #music:active, #engineering:active { transform: scale(1.03); }
+/* implimented in index.css as well */
+
 /*----------------------------------------------------------------------------*/
 
 div.object {
