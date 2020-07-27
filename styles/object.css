@@ -1,0 +1,194 @@
+
+div.object {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+
+    border: 1px solid black;
+    border-radius: 2em;
+    
+    cursor: pointer;
+
+    transition: transform .2s;
+}
+@media only screen and ( min-width: 1000px ) { div.object { width: 1000px; } }
+@media only screen and ( max-width: 1000px ) { div.object { width: 100%;   } }
+
+div.object:hover { transform: scale(1.02); }
+div.object:active { transform: scale(1.01); }
+
+.object_text {
+    position: relative;
+    padding: 3%;
+    z-index: 0;
+}
+
+
+h1.object {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+
+    color: #4395FF;
+    
+}
+
+p.object {
+    display: contents;
+
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p.link {
+    color: #4395FF;
+}
+/* arrow */
+p.link > img {
+    height: .7em;
+}
+
+img.object { background-color: #696969; }
+
+/*--------------------------------------*/
+/*          NORMAL SIZE WINDOW          */
+/*--------------------------------------*/
+@media only screen and ( min-width: 750px ) {
+/**/
+
+img.object {
+    position: absolute;
+    width: 60%;
+
+    top: 50%;
+    transform: translate( 0, -50% );
+    
+    border-radius: 1.5em;
+}
+
+.object_text {
+    min-height: 246px;
+}
+
+.image_right { margin-left: 39%; z-index: 1; }
+.image_left { z-index: 1; margin-left: 1%; }
+.text_right { margin-left: 60%; }
+.text_left { margin-right: 60%; }
+
+.skills {
+    position: absolute;
+    bottom: 10%;
+    width: 86%;
+
+    flex-wrap: wrap;
+    align-items: baseline;
+    display: flex;
+}
+.skills > div {
+    display: block;
+    padding: 1%;
+    border-radius: 10px;
+}
+.date {
+    position: absolute;
+    bottom: 3%;
+    right: 7%;
+    font-size: .8em;
+    text-decoration: underline;
+}
+
+}
+/*--------------------------------------*/
+/*          SMALL WINDOW                */
+/*--------------------------------------*/
+@media only screen and ( max-width: 749px ) {
+/**/
+
+img.object {
+    position: relative;
+    width: 100%;
+
+    border-radius: 1.9em 1.9em 1.5em 1.5em;
+
+}
+
+}
+
+/*----------------------------------------------------------------------------*/
+
+/* C/C++ */
+.cpp { background-image: linear-gradient(#659AD2, #004482); }
+
+/* Java */
+.java { background-image: linear-gradient(#F1941C, #517E9D); }
+
+/* Python */
+.python { background-image: linear-gradient(#08599c, #EFC611); }
+
+/* Verilog */
+.verilog { background-image: linear-gradient(#f07487, #ca1d22); }
+
+/* Spice */
+.spice { background-image: linear-gradient(#6b001e, #946774); }
+
+/* PHP */
+.php { background-image: linear-gradient(#8596C1, #394966); }
+
+/* AutoHotkey */
+.autohotkey { background-image: linear-gradient(#79AC7A, #2D6C2C); }
+
+/* Google API */
+.googleapi { background-image: linear-gradient(#EBB100, #2C9F4D, #3F82F0 ); }
+
+/* HTML, CSS, Javascript */
+.website { background-image: linear-gradient(#EA4233, #EBB100, #2C9F4D); }
+
+/* Android */
+.android { background-image: linear-gradient(#87b85e, #638644); }
+
+/* Algorithm Design */
+.algorithm { background-image: linear-gradient(#5e5e5e, #313131); }
+
+/* Circuit Design */
+.circuit { background-image: linear-gradient(#477534, #7baa24); }
+
+/* Soldering */
+.soldering { background-image: linear-gradient(#4d4d4d, #777777); }
+
+/* Raspberry Pi */
+.raspberry { background-image: linear-gradient(#A30E39, #640722); }
+
+/* Arduino */
+.arduino { background-image: linear-gradient(#18a1a8, #11676b); }
+
+/* Wood Construction */
+.wood { background-image: linear-gradient(#C3824A, #EBAF7B); }
+
+
+
+
+/* Clarinet Performance */
+.clarinet { }
+
+/* Vocal Performance */
+.voice { }
+
+/* Adobe Premiere Pro */
+.premiere { }
+
+/* Adobe After Effects */
+.effects { }
+
+/* Adobe Illustrator */
+.illustrator { }
+
+/* Adobe Photoshop */
+.photoshop { }
+
+/* Sibelius */
+.sibelius { }
+
