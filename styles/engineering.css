@@ -1,6 +1,7 @@
 
 /* --------------------------------------------------------------------------------------------------------- */
 
+html { background-color: #252525; }
 .black_background { background-color: black; }
 
 header { font-family: "Lucida Console", Monaco, monospace; }
@@ -35,6 +36,7 @@ header { font-family: "Lucida Console", Monaco, monospace; }
 }
 
 #space_canvas {
+    box-shadow: 0 0 15px rgba(255,255,255,.1);
     display: block;
     position: absolute;
     top: -180px;
@@ -83,3 +85,10 @@ input[type=number] {
 
 /* --------------------------------------------------------------------------------------------------------- */
 
+div.object {
+    color: white;
+    background-color: #313131;
+    box-shadow: .1em .3em .2em rgba(255,255,255,.4);
+}
+div.object:hover { background-color: #363636; }
+div.object:active { background-color: #3a3a3a; }
