@@ -89,6 +89,7 @@ input[type=number] {
 
 [id^="tooltip"] {
     visibility: hidden;
+    opacity: 0;
     text-align: center;
     position: absolute;
     display: inline-block;
@@ -100,24 +101,26 @@ input[type=number] {
     top: -30%;
     left: 50%;
     transform: translate(-50%, -120%);
+    transition: opacity .2s;
 }
 
 [id^="hover"] {
-    /* z-index: -1; */
+    
     position: absolute;
-    /* background-color: #00BFBF; */
 
     transform: translate(-50%, 0);
-    width: 50%;
+    width: max(50%, 10em);
     top: 0;
     left: 50%;
+
+    
 }
 
 
-#hover_friction:hover #tooltip_friction { visibility: visible; }
-#hover_speed:hover    #tooltip_speed    { visibility: visible; }
-#hover_exponant:hover #tooltip_exponant { visibility: visible; }
-#hover_planets:hover  #tooltip_planets  { visibility: visible; }
+#hover_friction:hover #tooltip_friction { visibility: visible; opacity: 1; }
+#hover_speed:hover    #tooltip_speed    { visibility: visible; opacity: 1; }
+#hover_exponant:hover #tooltip_exponant { visibility: visible; opacity: 1; }
+#hover_planets:hover  #tooltip_planets  { visibility: visible; opacity: 1; }
 
 
 
