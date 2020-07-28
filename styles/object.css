@@ -30,6 +30,7 @@ h1.object {
     font-size: 1.5em;
     font-weight: bold;
     margin: 0;
+    padding-bottom: 3%;
 
     color: #4395FF;
     
@@ -120,6 +121,29 @@ img.object {
 
 /*----------------------------------------------------------------------------*/
 
+
+/*
+<div class="skills">
+<div class="cpp">C/C++</div>
+<div class="java">Java</div>
+<div class="python">Python</div>
+<div class="verilog">Verilog</div>
+<div class="spice">Spice</div>
+<div class="php">PHP</div>
+<div class="autohotkey">AutoHotkey</div>
+<div class="googleapi">Google API</div>
+<div class="website">HTML, CSS, Javascript</div>
+<div class="android">Android</div>
+<div class="algorithm">Algorithm Design</div>
+<div class="circuit">Circuit Design</div>
+<div class="soldering">Soldering</div>
+<div class="raspberry">Raspberry Pi</div>
+<div class="arduino">Arduino</div>
+<div class="illustrator">Adobe Illustrator</div>
+</div>
+*/
+
+
 /* C/C++ */
 .cpp { background-image: linear-gradient(#659AD2, #004482); }
 
@@ -168,6 +192,8 @@ img.object {
 /* Wood Construction */
 .wood { background-image: linear-gradient(#C3824A, #EBAF7B); }
 
+/* Adobe Illustrator */
+.illustrator { background-image: linear-gradient(#EA6E22, #320600); }
 
 
 
@@ -183,8 +209,6 @@ img.object {
 /* Adobe After Effects */
 .effects { }
 
-/* Adobe Illustrator */
-.illustrator { }
 
 /* Adobe Photoshop */
 .photoshop { }
