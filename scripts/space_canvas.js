@@ -26,10 +26,10 @@ class Planet {
     constructor() {
         this.r = 3 + Math.random() * 16;
         this.color = "#" + Math.floor(Math.random()*16777215).toString(16);
-        this.g = Math.pow( this.r, 2 )/3;
+        this.g = Math.pow( this.r, 3 )/18;
         this.x = Math.random() * canvas.offsetWidth - canvas.offsetWidth/2;
         this.y = Math.random() * canvas.offsetHeight - canvas.offsetHeight/2;
-        this.vm = Math.random() * 2;
+        this.vm = Math.random() * 5;
         this.vd = Math.random() * 2 * Math.PI;
         this.am = 0;
         this.ad = 0;
