@@ -11,7 +11,9 @@ header {
 .navigation_bar { text-shadow: 0 0 .2em rgb(0,0,0,.5); }
 
 #music {
-    text-shadow: 0 0 .5em yellow, 0px 0px .9em yellow, 0px 0px .9em yellow;
+    text-shadow: 0 0 .5em yellow,
+                 0px 0px .9em yellow,
+                 0px 0px .9em yellow;
 }
 
 /* --------------------------------------------------------------------------------------------------------- */
@@ -46,6 +48,8 @@ header {
     left: .5%;
     width: 3.5%;
     z-index: 100;
+
+    cursor: pointer;
 
     transition: transform .2s;
 }
@@ -91,37 +95,38 @@ header {
 }
 
 #volume {
-    /* background-color: yellow; */
     position: relative;
-    height: 100%;
     transform: translate(0,0);
     text-align: center;
+    
+    height: 100%;
     width: 35vw;
 }
 #volume_icon {
     position: absolute;
-    height: 22%;
     transform: translate(-50%,-100%);
     top: 40%;
     left: 50%;
+
+    height: 22%;
 }
 @media only screen and ( min-width: 750px ) { #volume_slider { width: 250px; } }
 @media only screen and ( max-width: 750px ) { #volume_slider { width: 100%; } }
 #volume_slider {
     position: absolute;
-    width: min( 250px, 100% );
     transform: translate(-50%,100%);
     top: 40%;
     left: 50%;
+    
+    width: min( 250px, 100% );
+    cursor: pointer;
 }
 
 #play {
-    /* background-color: aqua; */
     height: 100%;
 }
 
 #sfx {
-    /* background-color: thistle; */
     position: relative;
     display: flex;
     justify-content: center;
