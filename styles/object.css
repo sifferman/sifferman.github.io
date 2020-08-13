@@ -72,7 +72,7 @@ img.object {
 }
 
 .object_text {
-    min-height: 246px;
+    min-height: max( 246px, calc( 400px - 13vw) );
 }
 
 .image_right { margin-left: 39%; z-index: 1; }

@@ -1,0 +1,61 @@
+
+#_MAIN_ {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: min( 1400px, 100% );
+    margin: auto;
+    margin-top: 1em;
+    font-size: 1.4em;
+}
+
+#_MAIN_ > div {
+    /* background-color: yellow; */
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 1em;
+}
+
+video ,
+img {
+    display: inline-block;
+    height: calc( 60px + 18vw );
+    width: auto;
+    margin: 1em;
+}
+
+img.big {
+    height: calc( 200px + 23vw );
+    width: auto;
+}
+
+.youtube {
+    display: inline-block;
+    width: min( 1000px, calc( 150px + 57vw ) );
+    height: min( 564px, calc( 85px + 32vw ) );
+    margin: 1em;
+}
+
+#_MAIN_ > div > p > a {
+    color: #b6c9f3;
+}
+
+p {
+    margin: 1em;
+}
+
+h1 {
+    margin-left: 20%;
+    border-bottom: .05em solid;
+    text-shadow: .05em .05em .2em #ffffff50;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}

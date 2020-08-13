@@ -32,26 +32,34 @@
 
         <td class="control_table"><div id="hover_friction">
             <div id="tooltip_friction">the higher the friction, the faster the planets stop</div>
-            friction<br>
-            <input id="friction" class="control_table" type="number" min="0" max="1" step=".01" value=".01">
+            <span>
+                friction<br>
+                <input id="friction" class="control_table" type="number" min="0" max="1" step=".01" value=".01">
+            </span>
         </div></td>
 
         <td class="control_table"><div id="hover_speed">
             <div id="tooltip_speed">speed up or slow down time</div>
-            time warp<br>
-            <input id="speed" class="control_table" type="number" min=".01" max="10" step=".01" value="1">
+            <span>
+                time warp<br>
+                <input id="speed" class="control_table" type="number" min=".01" max="10" step=".01" value="1">
+            </span>
         </div></td>
 
         <td class="control_table"><div id="hover_exponant">
             <div id="tooltip_exponant">increase gravity with smaller values</div>
-            distance_exponant<br>
+            <span>
+                distance_exponant<br>
             <input id="distance_exponant" class="control_table" type="number" min=".01" max="3" step=".01" value="2">
+            </span>
         </div></td>
 
         <td class="control_table"><div id="hover_planets">
             <div id="tooltip_planets">change the number of planets</div>
-            num_planets<br>
-            <input id="num_planets" class="control_table" type="number" min="0" max="50" step="1" value="20">
+            <span>
+                num_planets<br>
+                <input id="num_planets" class="control_table" type="number" min="0" max="50" step="1" value="20">    
+            </span>
         </div></td>
 
     </tr></table></div>
@@ -62,8 +70,8 @@
 
 
 <a href="engineering/Max-Cut.html"><div class="object unselectable">
-    <img class="object image_left" src="media/engineering/object_images/Max-Cut.jpg" alt="Max-Cut">
-    <div class="object_text text_right">
+    <img class="object image_right" src="media/engineering/object_images/Max-Cut.jpg" alt="Max-Cut">
+    <div class="object_text text_left">
         <h1 class="object">
 Max-Cut on Unit Interval Graphs
         </h1>
@@ -76,6 +84,29 @@ Interval Graphs.
         <div class="skills">
             <div class="algorithm">Algorithm Design</div>
             <div class="cpp">C/C++</div>
+        </div>
+        <div class="date">
+            <em>in progress</em>
+        </div>
+
+    </div>
+</div></a>
+
+<a href="engineering/MIDI_Interrupter.html"><div class="object unselectable">
+    <img class="object image_left" src="media/engineering/object_images/Tesla_Coil.jpg" alt="Max-Cut">
+    <div class="object_text text_right">
+        <h1 class="object">
+MIDI Interrupter for Dual Resonant Tesla Coil
+        </h1>
+        <p class="object">
+UCSB IEEE built an EPIC Dual Resonant Tesla Coil in 2018, but it has only
+collected dust since. A friend and I are working to give it MIDI input
+so it can be played via a piano keyboard!
+        </p>
+
+        <div class="skills">
+            <div class="circuit">AC Circuit Design</div>
+            <div class="python">Python</div>
         </div>
         <div class="date">
             <em>in progress</em>
@@ -134,10 +165,9 @@ RC Car With Video Streaming
         </h1>
         <p class="object">
 For my 19th birthday party, I organized a building party to
-construct an RC Car with a Raspberry Pi that could stream the output
-of the attached camera. We connected to it through WiFi, so that we were could
-drive it around without even being in the room!
-We saw the world all from the car's perspective, just like a video game!
+construct an WiFi controlled RC Car with a Raspberry Pi and camera.
+When driving it around, we got to see the world
+from it's perspective, just like a video game!
         </p>
         <div class="skills">
             <div class="raspberry">Raspberry Pi</div>
