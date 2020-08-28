@@ -3,7 +3,9 @@
 
 <head>
 
-    <title>Engineering</title>
+    <title>Engineering | Max-Cut</title>
+
+    <base target="_blank">
 
     <link rel="stylesheet" type="text/css" href="../styles/site.css">
     <link rel="stylesheet" type="text/css" href="../styles/subpage.css">
@@ -15,23 +17,75 @@
     <div id="header_title" class="header_cell_contents">Ethan Sifferman</div>
     
     <table class="navigation_bar"><tr>
-        <td id="about"><a href="../index.html">about</a></td>
-        <td id="music"><a href="../music.html">music</a></td>
-        <td id="engineering"><a href="../engineering.html">engineering</a></td>
+        <td id="about"><a href="../index.html" target="_self">about</a></td>
+        <td id="music"><a href="../music.html" target="_self">music</a></td>
+        <td id="engineering"><a href="../engineering.html" target="_self">engineering</a></td>
     </tr></table>
 </header></div>
 <div id="_MAIN_"> <!---------------------------------------------->
 <!----->
 
+<h1>What is the Max-Cut problem?</h1>
+<div>
+    <p><b>
+        Given an undirected graph G, how can we arrange the verticies of G into two disjoint
+        partitions such that the number of edges that cross the two partitions is maximized?
+    </b></p>
+    <p>
+        Learn more: <a href="https://en.wikipedia.org/wiki/Maximum_cut">Max-Cut</a>!
+    </p>
+    <p>
+        The max-cut problem in graph theory comes up for many applications such as VLSI. However,
+        it is proven to be insolvable in polynomial time. Yet, we still regularly rely on the
+        answer to this problem. That is why, although we cannot find one master algorithm to solve
+        the problem for all types of graphs, we should try to solve it for as many different
+        classes of graphs as we can.
+    </p>
+    <p>
+        However, max-cut is solvable in polynomial time for graphs including complete graphs and
+        split-indifferance graphs. <br>
+        Max-cut is NP-Hard for cubic graphs, split graphs, interval graphs, and more. <br>
+        This research project is dedicated to determining whether Max-cut on unit interval graphs
+        is in NP-Hard or P.
+    </p>
+</div>
+
+<h1>What are Unit Interval Graphs?</h1>
+<div>
+    <img class="left" src="../media/engineering/subpages/Max-Cut/interval-graph.jpg">
+    <p>
+        An interval graph is an undirected graph formed from a set of intervals on the real number
+        line, with a vertex for each interval, and an edge between vertcies whose intervals
+        overlap. A unit interval graph is an interval graph where each interval is the unit length.
+        Unit interval graphs are synonomous with proper interval graphs.
+    </p>
+    <p>
+        Learn more: <a href="https://en.wikipedia.org/wiki/Interval_graph#Proper_Interval_Graphs">Unit Interval Graphs</a>!
+    </p>
+</div>
+
+<h1>Max-Cut on Unit Interval Graphs</h1>
 <div>
     <p>
-        Sorry! I haven't written anything about max-cut on unit interval graphs yet...
+        Unit Interval Graphs have many more special properties than Improper Interval Graphs,
+        allowing for many DP and greedy algorithms on common HP-Hard problems. So although
+        max-cut is NP-Hard on Improper Interval Graphs, it may not be NP-Hard for unit interval
+        graphs.
     </p>
     <p>
-        If you're still interested, read about it <a href="https://en.wikipedia.org/wiki/Interval_graph#Proper_Interval_Graphs">here</a> and <a href="https://en.wikipedia.org/wiki/Maximum_cut">here</a>!
+        However, this project is in progress. No polynomial-time algorithm has been discovered,
+        and no NP-Hard reduction to Unit Interval Graphs has been found. Keep checking back for
+        more info!
     </p>
-    <p>
+</div>
+
+<h1>References</h1>
+<div>
+    <p><b>
         <a href="https://github.com/E4tHam/IG_max-cut_solver">GitHub Repository</a>
+    </b></p>
+    <p>
+        More coming soon!
     </p>
 </div>
 

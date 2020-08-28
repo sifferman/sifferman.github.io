@@ -7,7 +7,7 @@
     font-size: 1.4em;
 }
 
-#_MAIN_ > div {
+#_MAIN_ div {
     /* background-color: yellow; */
     width: 100%;
     overflow: auto;
@@ -34,9 +34,7 @@ img.big {
     margin: 1em;
 }
 
-#_MAIN_ > div > p > a {
-    color: #b6c9f3;
-}
+#_MAIN_ a { color: #b6c9f3; }
 
 p {
     margin: 1em;

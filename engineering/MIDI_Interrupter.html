@@ -3,7 +3,9 @@
 
 <head>
 
-    <title>Engineering</title>
+    <title>Engineering | MIDI Interrupter</title>
+
+    <base target="_blank">
 
     <link rel="stylesheet" type="text/css" href="../styles/site.css">
     <link rel="stylesheet" type="text/css" href="../styles/subpage.css">
@@ -15,19 +17,62 @@
     <div id="header_title" class="header_cell_contents">Ethan Sifferman</div>
     
     <table class="navigation_bar"><tr>
-        <td id="about"><a href="../index.html">about</a></td>
-        <td id="music"><a href="../music.html">music</a></td>
-        <td id="engineering"><a href="../engineering.html">engineering</a></td>
+        <td id="about"><a href="../index.html" target="_self">about</a></td>
+        <td id="music"><a href="../music.html" target="_self">music</a></td>
+        <td id="engineering"><a href="../engineering.html" target="_self">engineering</a></td>
     </tr></table>
 </header></div>
 <div id="_MAIN_"> <!---------------------------------------------->
 <!----->
 
+<h1>Where'd you get this Tesla Coil?</h1>
 <div>
     <p>
-        You've caught me at my most vulnerable... Sorry, haven't finished this page...
+        UCSB IEEE built a dual resonant solid state tesla coil
+        in Spring of 2018. You can learn about how it was built from the
+        <a href="https://ucsbieee.org/projects/teslacoil/">club's website</a> or the
+        <a href="https://imboning.com/projects/drsstc">2017-2019 club president's website</a>!
     </p>
-    <p>Learn about how to make a MIDI Interrupter with <a href="https://www.songstuff.com/recording/article/midi_message_format/">this</a> and <a href="https://youtu.be/Y2OPnrgb0pY">this</a>!</p>
+    <p>
+        The Tesla Coil was a fantastic project for the club! However, it has sat, collecting dust
+        since. Therefore, I am working to attatch a MIDI Interrupter to it so it can be played in
+        real time with MIDI input.
+    </p>
+</div>
+
+<h1>What's a MIDI Interrupter?</h1>
+<div>
+    <p>
+        MIDI Interrupters need to take in the data from a MIDI signal and convert it to a PWM
+        square wave that the tesla coil can read.
+    </p>
+    <ul>
+        <li>
+            You can learn about MIDI message formats
+            <a href="https://www.songstuff.com/recording/article/midi_message_format/">here</a>!
+        </li>
+        <li>
+            You can learn about how Dual Resonant Solid State Tesla Coils generate pitches
+            <a href="http://kaizerpowerelectronics.dk/tesla-coils/musical-sstcdrsstc-interrupter/">here</a>!
+        </li>
+        <li>
+            Example MIDI Interrupters can be purchased
+            <a href="https://www.easternvoltageresearch.com/search.php?search_query=midi%20music%20interrupter&section=product">here</a>!
+        </li>
+    </p>
+</div>
+
+<h1>Plan</h1>
+<div>
+    <p>
+        The first prototype is to plug the tesla coil's input directly into the audio jack of our
+        computer that is playing a square wave. Once I feel that I understand how tesla coils can
+        be interfaced with, I will start building a circuit that does not connect to a computer and
+        converts the MIDI signal directly to a PWM.
+    </p>
+    <p>
+        However, due to Covid-19, and the lack of access to the UCSB IEEE, progress has been slow. So please check back soon for more updates!
+    </p>
 </div>
 
 <!----->
