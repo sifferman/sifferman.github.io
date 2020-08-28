@@ -85,7 +85,7 @@ function draw() { setTimeout(function() {
 }, 0);}
 
 
-const delay = .005;
+const delay = .01;
 function sync( w_delay = 1 ) {
     for ( var i = 1; i < audio.length; i++ ) {
 
