@@ -17,36 +17,36 @@
 
 
 <audio id="voice_audio">
-    <source src="../media/music/audio/Voice.ogg" type="audio/ogg">
-    <source src="../media/music/audio/Voice.mp3" type="audio/mpeg">
+    <source src="../media/music/main/audio/Voice.ogg" type="audio/ogg">
+    <source src="../media/music/main/audio/Voice.mp3" type="audio/mpeg">
 </audio>
 <audio id="hype_audio">
-    <source src="../media/music/audio/Hype.ogg" type="audio/ogg">
-    <source src="../media/music/audio/Hype.mp3" type="audio/mpeg">
+    <source src="../media/music/main/audio/Hype.ogg" type="audio/ogg">
+    <source src="../media/music/main/audio/Hype.mp3" type="audio/mpeg">
 </audio>
 <audio id="eb_audio">
-    <source src="../media/music/audio/Eb.ogg" type="audio/ogg">
-    <source src="../media/music/audio/Eb.mp3" type="audio/mpeg">
+    <source src="../media/music/main/audio/Eb.ogg" type="audio/ogg">
+    <source src="../media/music/main/audio/Eb.mp3" type="audio/mpeg">
 </audio>
 <audio id="bass_audio">
-    <source src="../media/music/audio/Bass.ogg" type="audio/ogg">
-    <source src="../media/music/audio/Bass.mp3" type="audio/mpeg">
+    <source src="../media/music/main/audio/Bass.ogg" type="audio/ogg">
+    <source src="../media/music/main/audio/Bass.mp3" type="audio/mpeg">
 </audio>
 <audio id="percussion_audio">
-    <source src="../media/music/audio/Percussion.ogg" type="audio/ogg">
-    <source src="../media/music/audio/Percussion.mp3" type="audio/mpeg">
+    <source src="../media/music/main/audio/Percussion.ogg" type="audio/ogg">
+    <source src="../media/music/main/audio/Percussion.mp3" type="audio/mpeg">
 </audio>
 <audio id="clap_audio">
-    <source src="../media/music/audio/Clap.ogg" type="audio/ogg">
-    <source src="../media/music/audio/Clap.mp3" type="audio/mpeg">
+    <source src="../media/music/main/audio/Clap.ogg" type="audio/ogg">
+    <source src="../media/music/main/audio/Clap.mp3" type="audio/mpeg">
 </audio>
 <audio id="raindrop_audio">
-    <source src="../media/music/audio/Raindrop.ogg" type="audio/ogg">
-    <source src="../media/music/audio/Raindrop.mp3" type="audio/mpeg">
+    <source src="../media/music/main/audio/Raindrop.ogg" type="audio/ogg">
+    <source src="../media/music/main/audio/Raindrop.mp3" type="audio/mpeg">
 </audio>
 <audio id="ethan_audio">
-    <source src="../media/music/audio/Ethan.ogg" type="audio/ogg">
-    <source src="../media/music/audio/Ethan.mp3" type="audio/mpeg">
+    <source src="../media/music/main/audio/Ethan.ogg" type="audio/ogg">
+    <source src="../media/music/main/audio/Ethan.mp3" type="audio/mpeg">
 </audio>
 
 
@@ -63,13 +63,13 @@
 
 <div id="player" class="unselectable">
     <canvas id="player_canvas"></canvas>
-    <img id="sheet_music" src="../media/music/images/sheet-music.svg" alt="Sheet Music">
+    <img id="sheet_music" src="../media/music/main/images/sheet-music.svg" alt="Sheet Music">
 
-    <img id=     "voice_mute" class="mute_button" src="../media/music/icons/sfx-button.svg"  alt=     "voice_mute" onclick="toggle_voice()">
-    <img id=      "hype_mute" class="mute_button" src="../media/music/icons/mute-button.svg" alt=      "hype_mute" onclick="toggle_hype()">
-    <img id=        "eb_mute" class="mute_button" src="../media/music/icons/mute-button.svg" alt=        "eb_mute" onclick="toggle_eb()">
-    <img id=      "bass_mute" class="mute_button" src="../media/music/icons/mute-button.svg" alt=      "bass_mute" onclick="toggle_bass()">
-    <img id="percussion_mute" class="mute_button" src="../media/music/icons/mute-button.svg" alt="percussion_mute" onclick="toggle_percussion()">
+    <img id=     "voice_mute" class="mute_button" src="../media/music/main/icons/sfx-button.svg"  alt=     "voice_mute" onclick="toggle_voice()">
+    <img id=      "hype_mute" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt=      "hype_mute" onclick="toggle_hype()">
+    <img id=        "eb_mute" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt=        "eb_mute" onclick="toggle_eb()">
+    <img id=      "bass_mute" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt=      "bass_mute" onclick="toggle_bass()">
+    <img id="percussion_mute" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt="percussion_mute" onclick="toggle_percussion()">
 </div>
 
 
@@ -77,26 +77,26 @@
 <div id="control">
 
     <div id="volume">
-        <img id="volume_icon" src="../media/music/icons/volume.svg" alt="Volume"> <br>
+        <img id="volume_icon" src="../media/music/main/icons/volume.svg" alt="Volume"> <br>
         <input id="volume_slider" type="range" name="Volume" min="0" max="1" step=".01" value=".5">
     </div>
 
     <div id="play">
-        <div class="button_div"><img id="playToggle_b" class="svg_button" onclick="playToggle()" src="../media/music/icons/play-button.svg" alt="Play Button"></div>
+        <div class="button_div"><img id="playToggle_b" class="svg_button" onclick="playToggle()" src="../media/music/main/icons/play-button.svg" alt="Play Button"></div>
     </div>
 
     <div id="sfx">
-        <div class="button_div"><img id="sfx1_b" class="svg_button" onMouseDown="playClap()" src="../media/music/icons/sfx-button.svg" alt="SFX Button"></div>
-        <div class="button_div"><img id="sfx2_b" class="svg_button" onMouseDown="playRaindrop()" src="../media/music/icons/sfx-button.svg" alt="SFX Button"></div>
-        <div class="button_div"><img id="sfx3_b" class="svg_button" onMouseDown="playEthan()" src="../media/music/icons/sfx-button.svg" alt="SFX Button"></div>
+        <div class="button_div"><img id="sfx1_b" class="svg_button" onMouseDown="playClap()" src="../media/music/main/icons/sfx-button.svg" alt="SFX Button"></div>
+        <div class="button_div"><img id="sfx2_b" class="svg_button" onMouseDown="playRaindrop()" src="../media/music/main/icons/sfx-button.svg" alt="SFX Button"></div>
+        <div class="button_div"><img id="sfx3_b" class="svg_button" onMouseDown="playEthan()" src="../media/music/main/icons/sfx-button.svg" alt="SFX Button"></div>
     </div>
 
 </div>
 
 <script type="text/javascript" src="../scripts/musicPlayer_canvas.js"></script>
 
-<a href="../music/Aca-word.html"><div class="object unselectable">
-    <img class="object image_left" src="../media/music/object_images/Aca-word.jpg" alt="Aca-word">
+<a href="Aca-word/"><div class="object unselectable">
+    <img class="object image_left" src="../media/music/main/object_images/Aca-word.jpg" alt="Aca-word">
     <div class="object_text text_right">
         <h1 class="object">
 Music Video for "Stand Six Feet" : Aca-word
@@ -112,8 +112,8 @@ stress caused by the Coronavirus pandemic.
     </div>
 </div></a>
 
-<a href="BIPS.html"><div class="object unselectable">
-    <img class="object image_right" src="../media/music/object_images/This Love.jpg" alt="This Love">
+<a href="BIPS/"><div class="object unselectable">
+    <img class="object image_right" src="../media/music/main/object_images/This Love.jpg" alt="This Love">
     <div class="object_text text_left">
         <h1 class="object">
 "This Love" & "Crocodile Rock" : B.I.P.S.
@@ -129,8 +129,8 @@ and a half-working banjo from the internet.
     </div>
 </div></a>
 
-<a href="sound.html"><div class="object unselectable">
-    <img class="object image_left" src="../media/music/object_images/sound.jpg" alt="sound">
+<a href="sound/"><div class="object unselectable">
+    <img class="object image_left" src="../media/music/main/object_images/sound.jpg" alt="sound">
     <div class="object_text text_right">
         <h1 class="object">
 "sound" : for Carillon and Woodwind Duet
@@ -146,8 +146,8 @@ people walk by enjoying the campus's beautiful weather. Headphones recommended!
     </div>
 </div></a>
 
-<a href="Elation.html"><div class="object unselectable">
-    <img class="object image_right" src="../media/music/object_images/Elation.jpg" alt="Elation">
+<a href="Elation/"><div class="object unselectable">
+    <img class="object image_right" src="../media/music/main/object_images/Elation.jpg" alt="Elation">
     <div class="object_text text_left">
         <h1 class="object">
 "Elation" : Clayton Wind Band
@@ -163,8 +163,8 @@ the wind ensemble of nearly 30 instrumentalists to record our pieces.
     </div>
 </div></a>
 
-<a href="Luvushka.html"><div class="object unselectable">
-    <img class="object image_left" src="../media/music/object_images/Luvushka.jpg" alt="Luvushka">
+<a href="Luvushka/"><div class="object unselectable">
+    <img class="object image_left" src="../media/music/main/object_images/Luvushka.jpg" alt="Luvushka">
     <div class="object_text text_right">
         <h1 class="object">
 "Luvushka" : for Saxophone Quartet and Tambourine
@@ -180,15 +180,15 @@ saxophonists, and percussionists to utilize the full potential of the instrument
     </div>
 </div></a>
 
-<a href="music/OIC.html"><div class="object unselectable">
-    <img class="object image_right" src="../media/music/object_images/OIC.jpg" alt="OIC">
+<a href="OIC/"><div class="object unselectable">
+    <img class="object image_right" src="../media/music/main/object_images/OIC.jpg" alt="OIC">
     <div class="object_text text_left">
         <h1 class="object">
 "Problem" : O.I.C.
         </h1>
         <p class="object">
 This is possibly the most wacky climax to a musical ensemble ever! As president
-of the Odd Instruments Club (O.I.C.) at Clayton Valley Charter Hich School, I
+of the Odd Instruments Club (O.I.C.) at Clayton Valley Charter High School, I
 arranged a kitchen sink extravaganza to finish out my term.
         </p>
         <div class="date">
