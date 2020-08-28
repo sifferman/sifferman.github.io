@@ -1,12 +1,23 @@
 
 # .gitignore #
 
+
+
+# MacOS #
+*.DS_store
+**/.DS_store
+
+# VS Code #
+.vscode
+**/.vscode
+
+
+
 # Ignore all files and directories in root named : #
+
 # edit
 edit
 edit.*
-edit/
 # test
 test
 test.*
-test/
