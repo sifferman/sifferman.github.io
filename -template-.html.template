@@ -2,15 +2,14 @@
 <html lang="en">
 
 <head> <!---------------------------------------------->
-<!----->
 
-    <title>_FILL_</title>
+    <title>-template-</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="styles/site.css">
     <link rel="stylesheet" type="text/css" href="styles/object.css">
-    <link rel="stylesheet" type="text/css" href="styles/_FILL_.css">
+    <link rel="stylesheet" type="text/css" href="styles/-template-.css">
 
-<!----->
 </head> <!---------------------------------------------->
 <body> <!---------------------------------------------->
 <!----->
@@ -24,7 +23,7 @@
     <table id="navigation_bar" class="header_cell_contents"><tr>
         <td><a href="about.html">about</a></td>
         <td><a href="music.html">music</a></td>
-        <td></th><a href="engineering.html">engineering</a></td>
+        <td><a href="engineering.html">engineering</a></td>
     </tr></table>
 </header>
 
