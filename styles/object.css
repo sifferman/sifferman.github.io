@@ -1,4 +1,6 @@
 
+/* object.css */
+
 div.object {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
@@ -114,7 +116,6 @@ img.object {
     width: 100%;
 
     border-radius: 1.9em 1.9em 1.5em 1.5em;
-
 }
 
 }

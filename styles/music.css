@@ -79,9 +79,6 @@ header {
 .button_div:active { transform: scale(1.03); }
 
 #control {
-    border-bottom: 1px dotted black;
-    box-shadow: 8px 15px 10px rgba(0,0,0,.3);
-    
     position: relative;
     text-align: center;
     height: calc( 7vmin + 70px );
@@ -92,6 +89,10 @@ header {
     flex-direction: row;
     justify-content: space-evenly;
     
+}
+.box-shadow {
+    border-bottom: 1px dotted black;
+    box-shadow: 8px 15px 10px rgba(0,0,0,.3);
 }
 
 #volume {
