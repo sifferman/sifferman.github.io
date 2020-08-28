@@ -108,11 +108,11 @@ function playToggle() {
     paused = !paused;
     
     if ( !paused ) {
-        playToggle_b.src = "media/music/icons/pause-button.svg";
+        playToggle_b.src = "../media/music/icons/pause-button.svg";
         for ( var a of audio ) a.play();
     }
     else {
-        playToggle_b.src = "media/music/icons/play-button.svg";
+        playToggle_b.src = "../media/music/icons/play-button.svg";
         sync( 0 );
         for ( var a of audio ) a.pause();
     }
@@ -137,11 +137,11 @@ function toggle_percussion() { toggle_mute(4); }
 function toggle_mute( i ) {
     if ( audio[i].muted ) {
         audio[i].muted = false;
-        mute_buttons[i].src = "media/music/icons/sfx-button.svg";
+        mute_buttons[i].src = "../media/music/icons/sfx-button.svg";
     } else {
         audio[i].muted = true;
         audio[i].currentTime = audio[0].currentTime - play_delay[i];
-        mute_buttons[i].src = "media/music/icons/mute-button.svg";
+        mute_buttons[i].src = "../media/music/icons/mute-button.svg";
     }
 }
 
