@@ -18,7 +18,7 @@ function fitToContainer() {
 
 var friction = document.getElementById("friction").value;
 var speed = document.getElementById("speed").value;
-var distance_exponant = document.getElementById("distance_exponant").value;
+var distance_exponent = document.getElementById("distance_exponent").value;
 var num_planets = document.getElementById("num_planets").value;
 
 var planets = [ ];
@@ -42,7 +42,7 @@ class Planet {
         var AM = planet.g /
             Math.pow(
                 Math.pow(this.x-planet.x,2) + Math.pow(this.y-planet.y,2),
-                1/2 * distance_exponant
+                1/2 * distance_exponent
             );
         AM = Math.min( AM, 100 );
         // find accelleration direction
@@ -120,8 +120,8 @@ document.getElementById("friction").oninput = function()
     { friction = this.value; console.log("friction: "); console.log(friction); }
 document.getElementById("speed").oninput = function()
     { speed = this.value; console.log("speed: "); console.log(speed); }
-document.getElementById("distance_exponant").oninput = function()
-    { distance_exponant = this.value; console.log("distance_exponant: "); console.log(distance_exponant); }
+document.getElementById("distance_exponent").oninput = function()
+    { distance_exponent = this.value; console.log("distance_exponent: "); console.log(distance_exponent); }
 document.getElementById("num_planets").oninput = function()
     { num_planets = this.value; Planet.update_num_planets(); console.log("num_planets: "); console.log(num_planets); }
 

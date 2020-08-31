@@ -152,17 +152,10 @@ header {
 
 
 div.object {
-    color: white;
-    background-color: #313131;
-    box-shadow: .1em .4em .3em rgba(255,255,255,.4);
-}
-div.object:hover { background-color: #363636; }
-div.object:active { background-color: #3a3a3a; }
-
-div.object {
     color: black;
     background-color: white;
     box-shadow: .1em .4em .3em rgba(0,0,0,.2);
+    border: 1px solid #00000025;
 }
 div.object:hover { background-color: #fcfeff; }
 div.object:active { background-color: #f8fcff; }

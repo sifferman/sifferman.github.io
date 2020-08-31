@@ -132,7 +132,7 @@ input[type=number] {
 
 #hover_friction:hover #tooltip_friction { visibility: visible; opacity: 1; }
 #hover_speed:hover    #tooltip_speed    { visibility: visible; opacity: 1; }
-#hover_exponant:hover #tooltip_exponant { visibility: visible; opacity: 1; }
+#hover_exponent:hover #tooltip_exponent { visibility: visible; opacity: 1; }
 #hover_planets:hover  #tooltip_planets  { visibility: visible; opacity: 1; }
 
 
@@ -143,7 +143,8 @@ input[type=number] {
 div.object {
     color: #dddddd;
     background-color: #313131;
-    box-shadow: .1em .3em .2em rgba(255,255,255,.4);
+    box-shadow: .1em .3em .2em rgba(255,255,255,.35);
+    border: 1px solid #0000009c;
 }
 div.object:hover { background-color: #363636; }
 div.object:active { background-color: #3a3a3a; }
