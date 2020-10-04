@@ -16,79 +16,79 @@
 
 
 
-<audio id="voice_audio">
+<audio id="Audio__Voice">
     <source src="../media/music/main/audio/Voice.ogg" type="audio/ogg">
     <source src="../media/music/main/audio/Voice.mp3" type="audio/mpeg">
 </audio>
-<audio id="hype_audio">
+<audio id="Audio__Hype">
     <source src="../media/music/main/audio/Hype.ogg" type="audio/ogg">
     <source src="../media/music/main/audio/Hype.mp3" type="audio/mpeg">
 </audio>
-<audio id="eb_audio">
+<audio id="Audio__Eb">
     <source src="../media/music/main/audio/Eb.ogg" type="audio/ogg">
     <source src="../media/music/main/audio/Eb.mp3" type="audio/mpeg">
 </audio>
-<audio id="bass_audio">
+<audio id="Audio__Bass">
     <source src="../media/music/main/audio/Bass.ogg" type="audio/ogg">
     <source src="../media/music/main/audio/Bass.mp3" type="audio/mpeg">
 </audio>
-<audio id="percussion_audio">
+<audio id="Audio__Percussion">
     <source src="../media/music/main/audio/Percussion.ogg" type="audio/ogg">
     <source src="../media/music/main/audio/Percussion.mp3" type="audio/mpeg">
 </audio>
-<audio id="clap_audio">
+<audio id="Audio__Clap">
     <source src="../media/music/main/audio/Clap.ogg" type="audio/ogg">
     <source src="../media/music/main/audio/Clap.mp3" type="audio/mpeg">
 </audio>
-<audio id="raindrop_audio">
+<audio id="Audio__Raindrop">
     <source src="../media/music/main/audio/Raindrop.ogg" type="audio/ogg">
     <source src="../media/music/main/audio/Raindrop.mp3" type="audio/mpeg">
 </audio>
-<audio id="ethan_audio">
+<audio id="Audio__Ethan">
     <source src="../media/music/main/audio/Ethan.ogg" type="audio/ogg">
     <source src="../media/music/main/audio/Ethan.mp3" type="audio/mpeg">
 </audio>
 
 
 <header class="unselectable">
-    <div id="header_title">Ethan Sifferman</div>
+    <div id="Header__Title">Ethan Sifferman</div>
     
-    <table class="navigation_bar"><tr>
-        <td id="about"><a href="../">about</a></td>
-        <td id="music"><a href=".">music</a></td>
-        <td id="engineering"><a href="../engineering/">engineering</a></td>
+    <table id="Navigation-Bar"><tr>
+        <td id="About"><a href="../">about</a></td>
+        <td id="Music"><a href=".">music</a></td>
+        <td id="Engineering"><a href="../engineering/">engineering</a></td>
     </tr></table>
 </header>
 
 
-<div id="player" class="unselectable">
-    <canvas id="player_canvas"></canvas>
-    <img id="sheet_music" src="../media/music/main/images/sheet-music.svg" alt="Sheet Music">
+<div id="Player" class="unselectable">
+    <canvas id="Player__Canvas"></canvas>
+    <img id="Sheet-Music" src="../media/music/main/images/sheet-music.svg" alt="Sheet Music">
 
-    <img id=     "voice_mute" class="mute_button" src="../media/music/main/icons/sfx-button.svg"  alt=     "voice_mute" onclick="toggle_voice()">
-    <img id=      "hype_mute" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt=      "hype_mute" onclick="toggle_hype()">
-    <img id=        "eb_mute" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt=        "eb_mute" onclick="toggle_eb()">
-    <img id=      "bass_mute" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt=      "bass_mute" onclick="toggle_bass()">
-    <img id="percussion_mute" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt="percussion_mute" onclick="toggle_percussion()">
+    <img id=     "Mute__Voice" class="mute_button" src="../media/music/main/icons/sfx-button.svg"  alt=     "voice_mute" onclick="toggle_voice()">
+    <img id=      "Mute__Hype" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt=      "hype_mute" onclick="toggle_hype()">
+    <img id=        "Mute__Eb" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt=        "eb_mute" onclick="toggle_eb()">
+    <img id=      "Mute__Bass" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt=      "bass_mute" onclick="toggle_bass()">
+    <img id="Mute__Percussion" class="mute_button" src="../media/music/main/icons/mute-button.svg" alt="percussion_mute" onclick="toggle_percussion()">
 </div>
 
 
 
-<div id="control" class="box-shadow">
+<div id="Control" class="box-shadow">
 
-    <div id="volume">
-        <img id="volume_icon" src="../media/music/main/icons/volume.svg" alt="Volume"> <br>
-        <input id="volume_slider" type="range" name="Volume" min="0" max="1" step=".01" value=".5">
+    <div id="Volume">
+        <img id="Volume__Icon" src="../media/music/main/icons/volume.svg" alt="Volume"> <br>
+        <input id="Volume__Slider" type="range" name="Volume" min="0" max="1" step=".01" value=".5">
     </div>
 
-    <div id="play">
-        <div class="button_div"><img id="playToggle_b" class="svg_button" onclick="playToggle()" src="../media/music/main/icons/play-button.svg" alt="Play Button"></div>
+    <div id="Play">
+        <div class="button_div"><img id="PlayToggleButton" class="svg_button" onclick="playToggle()" src="../media/music/main/icons/play-button.svg" alt="Play Button"></div>
     </div>
 
-    <div id="sfx">
-        <div class="button_div"><img id="sfx1_b" class="svg_button" onMouseDown="playClap()" src="../media/music/main/icons/sfx-button.svg" alt="SFX Button"></div>
-        <div class="button_div"><img id="sfx2_b" class="svg_button" onMouseDown="playRaindrop()" src="../media/music/main/icons/sfx-button.svg" alt="SFX Button"></div>
-        <div class="button_div"><img id="sfx3_b" class="svg_button" onMouseDown="playEthan()" src="../media/music/main/icons/sfx-button.svg" alt="SFX Button"></div>
+    <div id="Sfx">
+        <div class="button_div"><img id="Sfx__b1" class="svg_button" onMouseDown="playClap()" src="../media/music/main/icons/sfx-button.svg" alt="SFX Button"></div>
+        <div class="button_div"><img id="Sfx__b2" class="svg_button" onMouseDown="playRaindrop()" src="../media/music/main/icons/sfx-button.svg" alt="SFX Button"></div>
+        <div class="button_div"><img id="Sfx__b3" class="svg_button" onMouseDown="playEthan()" src="../media/music/main/icons/sfx-button.svg" alt="SFX Button"></div>
     </div>
 
 </div>

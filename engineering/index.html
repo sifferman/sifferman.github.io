@@ -16,48 +16,48 @@
 
 <div class="black_background">
 <header class="unselectable">
-    <div id="header_title" class="header_cell_contents">Ethan Sifferman</div>
+    <div id="Header__Title" class="header_cell_contents">Ethan Sifferman</div>
     
-    <table class="navigation_bar"><tr>
-        <td id="about"><a href="../">about</a></td>
-        <td id="music"><a href="../music/">music</a></td>
-        <td id="engineering"><a href=".">engineering</a></td>
+    <table id="Navigation-Bar"><tr>
+        <td id="About"><a href="../">about</a></td>
+        <td id="Music"><a href="../music/">music</a></td>
+        <td id="Engineering"><a href=".">engineering</a></td>
     </tr></table>
 </header>
 
-<div id="space" class="unselectable">
-    <canvas id="space_canvas"></canvas>
-    <div id="space_bottom"><table class="control_table"><tr>
+<div id="Space" class="unselectable">
+    <canvas id="Space__Canvas"></canvas>
+    <div id="Control"><table><tr>
 
-        <td class="control_table"><div id="hover_friction">
-            <div id="tooltip_friction">the higher the friction, the faster the planets stop</div>
+        <td><div id="Hover__Friction">
+            <div id="Tooltip__Friction">the higher the friction, the faster the planets stop</div>
             <span>
                 friction<br>
-                <input id="friction" class="control_table" type="number" min="0" max="1" step=".01" value=".01">
+                <input id="Friction" type="number" min="0" max="1" step=".01" value=".01">
             </span>
         </div></td>
 
-        <td class="control_table"><div id="hover_speed">
-            <div id="tooltip_speed">speed up or slow down time</div>
+        <td><div id="Hover__Speed">
+            <div id="Tooltip__Speed">speed up or slow down time</div>
             <span>
                 time_warp<br>
-                <input id="speed" class="control_table" type="number" min=".01" max="10" step=".01" value="1">
+                <input id="Speed" type="number" min=".01" max="10" step=".01" value="1">
             </span>
         </div></td>
 
-        <td class="control_table"><div id="hover_exponent">
-            <div id="tooltip_exponent">increase gravity with smaller values</div>
+        <td><div id="Hover__Exponent">
+            <div id="Tooltip__Exponent">increase gravity with smaller values</div>
             <span>
                 distance_exponent<br>
-            <input id="distance_exponent" class="control_table" type="number" min=".01" max="3" step=".01" value="2">
+            <input id="Distance-Exponent" type="number" min=".01" max="3" step=".01" value="2">
             </span>
         </div></td>
 
-        <td class="control_table"><div id="hover_planets">
-            <div id="tooltip_planets">change the number of planets</div>
+        <td><div id="Hover__Planets">
+            <div id="Tooltip__Planets">change the number of planets</div>
             <span>
                 num_planets<br>
-                <input id="num_planets" class="control_table" type="number" min="0" max="50" step="1" value="20">    
+                <input id="Num-Planets" type="number" min="0" max="50" step="1" value="20">    
             </span>
         </div></td>
 

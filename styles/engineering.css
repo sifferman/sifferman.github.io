@@ -11,17 +11,17 @@ html {
 }
 
 header { font-family: "Lucida Console", Monaco, monospace; }
-#header_title {
+#Header__Title {
     font-size: calc(18px + 4vmin);
     color: #BFBFBF; text-shadow: 1px 1px 8px black;
 }
-.navigation_bar { text-shadow: 1px 1px 5px black, 0px 0px 2px black; }
-#about { color: #00BF00; }
-#music { color: #BF00BF; }
-#engineering { color: #00BFBF; }
+#Navigation-Bar { text-shadow: 1px 1px 5px black, 0px 0px 2px black; }
+#About { color: #00BF00; }
+#Music { color: #BF00BF; }
+#Engineering { color: #00BFBF; }
 
 
-#engineering {
+#Engineering {
     font-weight: 900;
     text-decoration: underline;
 }
@@ -30,7 +30,7 @@ header { font-family: "Lucida Console", Monaco, monospace; }
 /* --------------------------------------------------------------------------------------------------------- */
 /* INTERACTIVE HEADER */
 
-#space {
+#Space {
     position: relative;
     height: calc( 22.9vw + 7vmin + 70px );
     width: 100%;
@@ -41,15 +41,14 @@ header { font-family: "Lucida Console", Monaco, monospace; }
     font-size: calc(8px + 1vmin);;
 }
 
-#space_canvas {
+#Space__Canvas {
     /* box-shadow: 0 0 15px rgba(255,255,255,.1); */
     display: block;
     position: absolute;
     top: -180px;
 }
 
-#space_bottom {
-    /* background-color: #BF00BF; */
+#Control {
     position: absolute;
     transform: translate(0,-100%);
     top: 100%;
@@ -58,19 +57,19 @@ header { font-family: "Lucida Console", Monaco, monospace; }
 
 }
 
-table.control_table {
+#Control > table {
     /* background-color: #BF00BF; */
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-td.control_table {
+#Control td {
     width: 10%;
     text-align: center;
 }
 
-input.control_table {
+#Control input {
     background: transparent;
     font-family: inherit;
     color: inherit;
@@ -81,8 +80,8 @@ input.control_table {
 
 /* https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp */
 /* Chrome, Safari, Edge, Opera */
-input.control_table::-webkit-outer-spin-button,
-input.control_table::-webkit-inner-spin-button {
+#Control input::-webkit-outer-spin-button,
+#Control input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -95,7 +94,7 @@ input[type=number] {
 
 /* tooltips */
 
-[id^="tooltip"] {
+[id^="Tooltip"] {
     /* background-color: #00BFBF; */
     visibility: hidden;
     opacity: 0;
@@ -113,7 +112,7 @@ input[type=number] {
     transition: opacity .2s;
 }
 
-[id^="hover"] {
+[id^="Hover"] {
     position: absolute;
 
     transform: translate(-50%, 0);
@@ -123,17 +122,17 @@ input[type=number] {
     left: 50%;
 }
 
-[id^="hover"] > span {
+[id^="Hover"] > span {
     position: absolute;
     transform: translate(-50%, 0);
     bottom: 1%;
 }
 
 
-#hover_friction:hover #tooltip_friction { visibility: visible; opacity: 1; }
-#hover_speed:hover    #tooltip_speed    { visibility: visible; opacity: 1; }
-#hover_exponent:hover #tooltip_exponent { visibility: visible; opacity: 1; }
-#hover_planets:hover  #tooltip_planets  { visibility: visible; opacity: 1; }
+#Hover__Friction:hover #Tooltip__Friction { visibility: visible; opacity: 1; }
+#Hover__Speed:hover    #Tooltip__Speed    { visibility: visible; opacity: 1; }
+#Hover__Exponent:hover #Tooltip__Exponent { visibility: visible; opacity: 1; }
+#Hover__Planets:hover  #Tooltip__Planets  { visibility: visible; opacity: 1; }
 
 
 

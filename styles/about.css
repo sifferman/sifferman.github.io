@@ -7,37 +7,26 @@ html {
 
 header { }
 
-#header_title { text-shadow: 2px 2px 8px black, 0px 0px 1px black; }
+#Header__Title { text-shadow: 2px 2px 8px black, 0px 0px 1px black; }
 
-.navigation_bar {
+#Navigation-Bar {
     text-shadow: 1px 1px 5px black, 1px 1px 3px black, 0px 0px 1px black;
     max-height: 1em;
-    /* background-color: yellow; */
 }
 
-#about {
-    position: absolute;
+#About {
     background-color: #a1a1a1;
     background-color: rgba(46, 46, 46, 0.25);
     box-shadow: 1px 1px 4px rgba(0,0,0,0.7);
-
-    transform: translate(0,-50%);
-    top: 50%;
-    left: 0;
 
     padding: 5%;
     padding-top: 1.5%;
     padding-bottom: 2%;
 }
-#about:hover, #about:active {
-    transform: translate(0,-50%) scale(1.10);
-}
-#about:active {
-    transform: translate(0,-50%) scale(1.3);
-}
+
 /* --------------------------------------------------------------------------------------------------------- */
 
-#header_canvas {
+#Header__Canvas {
     position: relative;
     z-index: 1;
 }
@@ -45,12 +34,12 @@ header { }
 /* --------------------------------------------------------------------------------------------------------- */
 
 /* crop */
-#panorama_space {
+#Panorama__Space {
     width: 100%;
     height: 100vh;
 }
 
-#panorama_picture {
+#Panorama__Picture {
     background-color: #2e2e2e;
 
     z-index: 0;
@@ -68,7 +57,7 @@ header { }
 
 /* --------------------------------------------------------------------------------------------------------- */
 
-#contents {
+#Contents {
     position: absolute;
     /* background-color: yellow; */
 
@@ -83,7 +72,7 @@ header { }
     top: 52%;
 }
 
-#ethan {
+#Ethan {
     /* background-color: blueviolet; */
 
     height: 29vh;
@@ -91,7 +80,7 @@ header { }
     box-shadow: 2px 2px 8px black, 0px 0px 1px black;
 }
 
-#text_box {
+#Text-Box {
     margin: 5px;
     display: block;
     width: 40vw;
@@ -108,10 +97,10 @@ header { }
 
     color: rgba(255, 255, 255, 0.8);
 }
-#text_box > h1 {
+#Text-Box h1 {
     font-size: calc( 110% + 10px );
     
 }
-#text_box > p {
+#Text-Box p {
     font-size: calc( 110% + 0px );
 }

@@ -1,5 +1,5 @@
 
-var canvas = document.getElementById( "space_canvas" );
+var canvas = document.getElementById( "Space__Canvas" );
 var ctx = canvas.getContext("2d");
 
 fitToContainer();
@@ -16,10 +16,10 @@ function fitToContainer() {
     ctx.translate(canvas.offsetWidth/2, canvas.offsetHeight/2);
 }
 
-var friction = document.getElementById("friction").value;
-var speed = document.getElementById("speed").value;
-var distance_exponent = document.getElementById("distance_exponent").value;
-var num_planets = document.getElementById("num_planets").value;
+var friction = document.getElementById("Friction").value;
+var speed = document.getElementById("Speed").value;
+var distance_exponent = document.getElementById("Distance-Exponent").value;
+var num_planets = document.getElementById("Num-Planets").value;
 
 var planets = [ ];
 class Planet {
@@ -116,14 +116,14 @@ class Planet {
 
 Planet.init();
 
-document.getElementById("friction").oninput = function()
-    { friction = this.value; console.log("friction: "); console.log(friction); }
-document.getElementById("speed").oninput = function()
-    { speed = this.value; console.log("speed: "); console.log(speed); }
-document.getElementById("distance_exponent").oninput = function()
-    { distance_exponent = this.value; console.log("distance_exponent: "); console.log(distance_exponent); }
-document.getElementById("num_planets").oninput = function()
-    { num_planets = this.value; Planet.update_num_planets(); console.log("num_planets: "); console.log(num_planets); }
+document.getElementById("Friction").oninput = function()
+    { friction = this.value; /* console.log("Friction: "); console.log(friction); */ }
+document.getElementById("Speed").oninput = function()
+    { speed = this.value; /* console.log("Speed: "); console.log(speed); */ }
+document.getElementById("Distance-Exponent").oninput = function()
+    { distance_exponent = this.value; /* console.log("Distance-Exponent: "); console.log(distance_exponent); */ }
+document.getElementById("Num-Planets").oninput = function()
+    { num_planets = this.value; Planet.update_num_planets(); /* console.log("Num-Planets: "); console.log(num_planets); */ }
 
 
 

@@ -1,13 +1,13 @@
 // musicPlayer_canvas.js //
 
-var volume_slider = document.getElementById( "volume_slider" );
+var volume_slider = document.getElementById( "Volume__Slider" );
 
 var audio = [ ];
-audio.push( document.getElementById("voice_audio") );
-audio.push( document.getElementById("hype_audio") );
-audio.push( document.getElementById("eb_audio") );
-audio.push( document.getElementById("bass_audio") );
-audio.push( document.getElementById("percussion_audio") );
+audio.push( document.getElementById("Audio__Voice") );
+audio.push( document.getElementById("Audio__Hype") );
+audio.push( document.getElementById("Audio__Eb") );
+audio.push( document.getElementById("Audio__Bass") );
+audio.push( document.getElementById("Audio__Percussion") );
 for ( var a of audio ) {
     a.muted = true;
     a.volume = volume_slider.value;
@@ -16,20 +16,20 @@ for ( var a of audio ) {
 audio[0].muted = false;
 
 
-var clap = document.getElementById("clap_audio");
+var clap = document.getElementById("Audio__Clap");
 clap.volume = volume_slider.value;
-var raindrop = document.getElementById("raindrop_audio");
+var raindrop = document.getElementById("Audio__Raindrop");
 raindrop.volume = volume_slider.value;
-var ethan = document.getElementById("ethan_audio");
+var ethan = document.getElementById("Audio__Ethan");
 ethan.volume = volume_slider.value;
 
 
 var mute_buttons = [ ];
-mute_buttons.push( document.getElementById("voice_mute") );
-mute_buttons.push( document.getElementById("hype_mute") );
-mute_buttons.push( document.getElementById("eb_mute") );
-mute_buttons.push( document.getElementById("bass_mute") );
-mute_buttons.push( document.getElementById("percussion_mute") );
+mute_buttons.push( document.getElementById("Mute__Voice") );
+mute_buttons.push( document.getElementById("Mute__Hype") );
+mute_buttons.push( document.getElementById("Mute__Eb") );
+mute_buttons.push( document.getElementById("Mute__Bass") );
+mute_buttons.push( document.getElementById("Mute__Percussion") );
 
 
 var play_delay = [ ];
@@ -37,10 +37,10 @@ while ( play_delay.length < 5 ) play_delay.push( 0 );
 
 
 
-var canvas = document.getElementById("player_canvas");
+var canvas = document.getElementById("Player__Canvas");
 var ctx = canvas.getContext("2d");
 
-var sheet_music = document.getElementById("sheet_music");
+var sheet_music = document.getElementById("Sheet-Music");
 
 fitToContainer(canvas);
 draw();
@@ -102,7 +102,7 @@ function sync( w_delay = 1 ) {
 
 
 var paused = true;
-var playToggle_b = document.getElementById("playToggle_b");
+var playToggle_b = document.getElementById("PlayToggleButton");
 
 function playToggle() {
     paused = !paused;

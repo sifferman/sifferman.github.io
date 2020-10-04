@@ -6,11 +6,11 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#header_title { text-shadow: .04em .04em .25em rgb(0,0,0,.5); }
+#Header__Title { text-shadow: .04em .04em .25em rgb(0,0,0,.5); }
 
-.navigation_bar { text-shadow: 0 0 .2em rgb(0,0,0,.5); }
+#Navigation-Bar { text-shadow: 0 0 .2em rgb(0,0,0,.5); }
 
-#music {
+#Music {
     text-shadow: 0 0 .5em yellow,
                  0px 0px .9em yellow,
                  0px 0px .9em yellow;
@@ -18,21 +18,21 @@ header {
 
 /* --------------------------------------------------------------------------------------------------------- */
 
-#player {
+#Player {
     position: relative;
     max-width: 100vw;
     width: 100vw;
     
 }
 
-#player_canvas {
+#Player__Canvas {
     display: block;
     position: absolute;
     padding-top: 0;
     
 }
 
-#sheet_music {
+#Sheet-Music {
     position: relative;
     padding-left: 4.75%;
     padding-bottom: .5%;
@@ -56,11 +56,11 @@ header {
 .mute_button:hover { transform: scale(1.125); }
 .mute_button:active { transform: scale(1.03); }
 
-     #voice_mute { top: 2.5%; }
-      #hype_mute { top: 23.625%; }
-        #eb_mute { top: 44.75%; }
-      #bass_mute { top: 65.875%; }
-#percussion_mute { top: 87%; }
+     #Mute__Voice { top: 2.5%; }
+      #Mute__Hype { top: 23.625%; }
+        #Mute__Eb { top: 44.75%; }
+      #Mute__Bass { top: 65.875%; }
+#Mute__Percussion { top: 87%; }
 
 /* --------------------------------------------------------------------------------------------------------- */
 
@@ -78,7 +78,7 @@ header {
 .button_div:hover  { transform: scale(1.10); }
 .button_div:active { transform: scale(1.03); }
 
-#control {
+#Control {
     position: relative;
     text-align: center;
     height: calc( 7vmin + 70px );
@@ -95,7 +95,7 @@ header {
     box-shadow: 8px 15px 10px rgba(0,0,0,.3);
 }
 
-#volume {
+#Volume {
     position: relative;
     transform: translate(0,0);
     text-align: center;
@@ -103,7 +103,7 @@ header {
     height: 100%;
     width: 35vw;
 }
-#volume_icon {
+#Volume__Icon {
     position: absolute;
     transform: translate(-50%,-100%);
     top: 40%;
@@ -111,9 +111,9 @@ header {
 
     height: 22%;
 }
-@media only screen and ( min-width: 750px ) { #volume_slider { width: 250px; } }
-@media only screen and ( max-width: 750px ) { #volume_slider { width: 100%; } }
-#volume_slider {
+@media only screen and ( min-width: 750px ) { #Volume__Slider { width: 250px; } }
+@media only screen and ( max-width: 750px ) { #Volume__Slider { width: 100%; } }
+#Volume__Slider {
     position: absolute;
     transform: translate(-50%,100%);
     top: 40%;
@@ -123,11 +123,11 @@ header {
     cursor: pointer;
 }
 
-#play {
+#Play {
     height: 100%;
 }
 
-#sfx {
+#Sfx {
     position: relative;
     display: flex;
     justify-content: center;
@@ -139,11 +139,10 @@ header {
     border-spacing: 1vmin;
 }
 
-@media only screen and ( min-width: 750px ) { #sfx { height: 70%; }  }
-@media only screen and ( max-width: 750px ) { #sfx { height: 12vw; } }
+@media only screen and ( min-width: 750px ) { #Sfx { height: 70%; }  }
+@media only screen and ( max-width: 750px ) { #Sfx { height: 12vw; } }
 
-#sfx > .button_div {
-    /* background-color: aqua; */
+#Sfx > .button_div {
     padding-left: .5vw;
     padding-right: .5vw;
 }
