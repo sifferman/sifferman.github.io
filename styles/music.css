@@ -4,6 +4,7 @@
 header {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
 }
 
 #Header__Title { text-shadow: .04em .04em .25em rgb(0,0,0,.5); }

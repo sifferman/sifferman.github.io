@@ -24,6 +24,19 @@ header { }
     padding-bottom: 2%;
 }
 
+body {
+    background-color: #2e2e2e;
+    background-image: url( "../media/about/panorama.jpg" );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+body > * { margin: 1rem 0; }
+
 /* --------------------------------------------------------------------------------------------------------- */
 
 #Header__Canvas {
@@ -31,76 +44,48 @@ header { }
     z-index: 1;
 }
 
-/* --------------------------------------------------------------------------------------------------------- */
-
-/* crop */
-#Panorama__Space {
-    width: 100%;
-    height: 100vh;
-}
-
-#Panorama__Picture {
-    background-color: #2e2e2e;
-
-    z-index: 0;
-    position: absolute;
-    /* height: calc( 22.9vw + 7vmin + 70px + 180px ); */
-    height: 100vh;
-    width: 100%;
-    top: 0;
-
-    background-image: url( "../media/about/panorama.jpg" );
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 /* --------------------------------------------------------------------------------------------------------- */
 
 #Contents {
-    position: absolute;
-    /* background-color: yellow; */
+    flex-grow: 1;
 
     display: flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
     align-items: center;
+    align-content: flex-start;
 
-    width: 100%;
-    height: 35vh;
-    transform: translate( 0, -50% );
-    top: 52%;
 }
+#Contents > * { margin: 1rem .5rem; }
 
 #Ethan {
     /* background-color: blueviolet; */
+    --Ethan-Size: calc( 30vmin + 5rem );
+    width: var(--Ethan-Size);
+    height: var(--Ethan-Size);
 
-    height: 29vh;
     border-radius: 100%;
     box-shadow: 2px 2px 8px black, 0px 0px 1px black;
 }
 
 #Text-Box {
-    margin: 5px;
-    display: block;
-    width: 40vw;
-    min-width: 308px;
-    height: 100%;
-
+    color: #ffffff;
+    color: #ffffffcc;
     background-color: #2e2e2e;
-    background-color: rgba(46, 46, 46, 0.7);
+    background-color: #2e2e2eb3;
     box-shadow: 1px 1px 8px black, 0px 0px 1px black;
 
-    padding: 1%;
-    padding-top: .7%;
-    text-align: center;
+    padding: .7% 1% ;
 
-    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    max-width: 60ch;
+    height: fit-content;
+
 }
 #Text-Box h1 {
-    font-size: calc( 110% + 10px );
-    
+    font-size: 32px;
 }
 #Text-Box p {
-    font-size: calc( 110% + 0px );
+    font-size: 24px;
 }
