@@ -26,7 +26,7 @@ header { }
 
 body {
     background-color: #2e2e2e;
-    background-image: url( "../media/about/panorama.jpg" );
+    background-image: url( "/_media/about/panorama.jpg" );
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
