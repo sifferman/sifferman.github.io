@@ -33,21 +33,20 @@
         partitions such that the number of edges that cross the two partitions is maximized?
     </b></p>
     <p>
+        In layman&rsquo;s terms: picture someone&rsquo;s schedule, full of a bunch of overlapping 1-hour meetings. The meetings all start at random times throughout the day, and many meetings conflict with one another. You want to give some of your meetings to someone else with a clear schedule such that the number of conflicts that each of your schedules hold is minimized.
+    </p>
+    <p>
         Learn more: <a href="https://en.wikipedia.org/wiki/Maximum_cut">Max-Cut</a>!
     </p>
     <p>
-        The max-cut problem in graph theory comes up for many applications such as VLSI. However,
-        it is proven to be insolvable in polynomial time. Yet, we still regularly rely on the
-        answer to this problem. That is why, although we cannot find one master algorithm to solve
-        the problem for all types of graphs, we should try to solve it for as many different
-        classes of graphs as we can.
+        The max-cut problem in graph theory comes up for many applications such as VLSI. However, it is proven to be insolvable in polynomial time. Yet, we still regularly rely on the answer to  problem. That is why, although we cannot find one &ldquo;master algorithm&rdquo; to solve the problem for all types of graphs, we should try to solve it for as many different classes of graphs as we can.
     </p>
     <p>
-        However, max-cut is solvable in polynomial time for graphs including complete graphs and
-        split-indifferance graphs. <br>
-        Max-cut is NP-Hard for cubic graphs, split graphs, interval graphs, and more. <br>
-        This research project is dedicated to determining whether Max-cut on unit interval graphs
-        is in NP-Hard or P.
+        However, max-cut is solvable in polynomial time for graphs including complete graphs and split-indifferance graphs.
+        <br>
+        Max-cut is NP-Hard for cubic graphs, split graphs, interval graphs, and more.
+        <br>
+        This research project was dedicated to determining whether Max-cut on unit interval graphs is in NP-Hard or P. However no conclusion was reached.
     </p>
 </div>
 
@@ -55,39 +54,33 @@
 <div>
     <img class="left" src="/_media/engineering/subpages/Max-Cut/interval-graph.jpg">
     <p>
-        An interval graph is an undirected graph formed from a set of intervals on the real number
-        line, with a vertex for each interval, and an edge between vertcies whose intervals
-        overlap. A unit interval graph is an interval graph where each interval is the unit length.
-        Unit interval graphs are synonomous with proper interval graphs.
+        An interval graph is an undirected graph formed from a set of intervals on the real number line, with a vertex for each interval, and an edge between vertcies whose intervals overlap. A unit interval graph is an interval graph where each interval is the unit length. Unit interval graphs are synonomous with proper interval graphs.
     </p>
     <p>
-        Learn more: <a href="https://en.wikipedia.org/wiki/Interval_graph#Proper_Interval_Graphs">Unit Interval Graphs</a>!
+        Learn more: <a href="https://en.wikipedia.org/wiki/Interval_graph#Proper_Interval_Graphs target="_blank" rel="noopener noreferrer"">Unit Interval Graphs</a>!
     </p>
 </div>
 
 <h1>Max-Cut on Unit Interval Graphs</h1>
 <div>
     <p>
-        Unit Interval Graphs have many more special properties than Improper Interval Graphs,
-        allowing for many DP and greedy algorithms on common HP-Hard problems. So although
-        max-cut is NP-Hard on Improper Interval Graphs, it may not be NP-Hard for unit interval
-        graphs.
+        Unit Interval Graphs have many more special properties than Improper Interval Graphs, allowing for many DP and greedy algorithms on common HP-Hard problems. So although max-cut is NP-Hard on Improper Interval Graphs, it may not be NP-Hard for unit interval graphs.
     </p>
     <p>
-        However, this project is in progress. No polynomial-time algorithm has been discovered,
-        and no NP-Hard reduction to Unit Interval Graphs has been found. Keep checking back for
-        more info!
+        However, after spending 8 months on the problem, no conclusion was reached. We suspect that an NP reduction exists, but we were not able to find it.
     </p>
 </div>
 
-<h1>References</h1>
+<h1>Links</h1>
 <div>
-    <p><b>
-        <a href="https://github.com/E4tHam/IG_max-cut_solver">GitHub Repository</a>
-    </b></p>
-    <p>
-        More coming soon!
-    </p>
+    <ul>
+        <li>
+            <a href="https://github.com/E4tHam/MaxCut-UnitIntervalGraphs/blob/main/summary/summary.pdf" target="_blank" rel="noopener noreferrer">Summary Paper</a>
+        </li>
+        <li>
+            <a href="https://github.com/E4tHam/MaxCut-UnitIntervalGraphs">GitHub Repository</a>
+        </li>
+    </ul>
 </div>
 
 <!----->
