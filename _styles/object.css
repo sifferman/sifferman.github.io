@@ -8,7 +8,7 @@ div.object {
     margin-top: 3%;
 
     border-radius: 2em;
-    
+
     cursor: pointer;
 
     transition: transform .2s;
@@ -34,7 +34,7 @@ h1.object {
     padding-bottom: 3%;
 
     color: #4395FF;
-    
+
 }
 
 p.object {
@@ -54,7 +54,10 @@ p.link > img {
     height: .7em;
 }
 
-img.object { background-color: #696969; }
+img.object {
+    background-color: #696969;
+    /* object-fit: cover; */
+}
 
 /*--------------------------------------*/
 /*          NORMAL SIZE WINDOW          */
@@ -65,10 +68,12 @@ img.object { background-color: #696969; }
 img.object {
     position: absolute;
     width: 60%;
+    max-height: 80%;
+    object-fit: cover;
 
     top: 50%;
     transform: translate( 0, -50% );
-    
+
     border-radius: 1.5em;
 }
 
@@ -140,6 +145,7 @@ img.object {
 <div class="raspberry">Raspberry Pi</div>
 <div class="arduino">Arduino</div>
 <div class="illustrator">Adobe Illustrator</div>
+<div class="teaching">Teaching</div>
 </div>
 */
 
@@ -195,6 +201,8 @@ img.object {
 /* Adobe Illustrator */
 .illustrator { background-image: linear-gradient(#EA6E22, #320600); }
 
+/* Teaching */
+.teaching { background-image: linear-gradient(#8596C1, #394966); }
 
 
 /* Clarinet Performance */
